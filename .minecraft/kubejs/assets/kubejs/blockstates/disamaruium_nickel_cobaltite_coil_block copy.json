@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "kubejs:coils/disamaruium_nickel_cobaltite_coil_block"
+    },
+    "active=true": {
+      "model": "kubejs:coils/disamaruium_nickel_cobaltite_coil_block_bloom"
+    }
+  }
+}
