@@ -1,0 +1,9 @@
+2026-01-09 22:03:30.024 [error] Error: Error mutex already exists
+    at Tu.S (file:///C:/Users/polko/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:128:18405)
+2026-01-09 22:03:30.024 [info] update#setState idle
+2026-01-09 22:03:31.227 [error] #1: https://update.code.visualstudio.com/api/update/win32-x64-user/stable/1e3c50d64110be466c0b4a45222e81d2c9352888 - error undefined net::ERR_INTERNET_DISCONNECTED
+2026-01-09 22:03:31.228 [error] update#isLatestVersion(): failed to check for updates
+2026-01-09 22:03:31.228 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123970)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2026-01-09 22:03:31.986 [info] Extension host with pid 9664 exited with code: 0, signal: unknown.

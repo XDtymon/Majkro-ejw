@@ -1,0 +1,183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mv"
+	group: "283E7D00BD10A45A"
+	icon: "gtceu:electric_blast_furnace"
+	id: "23A46DCD78F42E8F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "754DD097E676CEF4"
+			tasks: [{
+				id: "634CAF0D2AB21CA7"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "10C036768B8B9FCA"
+			tasks: [{
+				id: "59283514C4899308"
+				item: "gtceu:raw_sapphire"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			id: "4EEDAAFDDE633A1D"
+			tasks: [{
+				id: "58B93D61FC473475"
+				item: "gtceu:sapphire_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			id: "262D94BAE0A0E2F4"
+			tasks: [{
+				id: "13DA0E6763FFF4DC"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "63685608A0B89FA5"
+			tasks: [{
+				id: "0286443F3903EE82"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "3088492B2528372D"
+			tasks: [{
+				id: "5219A81E55ED123C"
+				item: "gtceu:copper_single_cable"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "4A12D6A7002CAD52"
+			tasks: [{
+				id: "427812EE47DCB74A"
+				item: "gtceu:mv_polarizer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "6F1A27217C6D8B3B"
+			tasks: [{
+				id: "77C6B2A71454C054"
+				item: "gtceu:nickel_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			id: "2ACCAD47CBE0D671"
+			tasks: [{
+				id: "00EA0C9540BCCF16"
+				item: "gtceu:cobalt_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			id: "6D2B8A93DC07EE62"
+			tasks: [{
+				id: "31E84A428859C168"
+				item: "gtceu:nickel_cobaltite_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "23F788FF35F4A9BC"
+			tasks: [{
+				id: "14087FF2EBBCAF4E"
+				item: "gtceu:nickel_cobaltite_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "755DC60014754A34"
+			tasks: [{
+				id: "13A37176BCFE90B3"
+				item: "gtceu:magnetic_nickel_cobaltite_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "2C9DEA2AF29A0C94"
+			tasks: [{
+				id: "7E788AC065B94D64"
+				item: "gtceu:mv_electric_motor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "3978976007CF0F57"
+			tasks: [{
+				id: "646FE7A78CF8C37C"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			id: "3402FAA98FF1EB53"
+			tasks: [{
+				id: "115EB258F0349B5D"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "3EFA9E2963AD00A7"
+			tasks: [{
+				id: "2D492D509426BC76"
+				item: "gtceu:ruby_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "22BA9AE9CF1A1BD5"
+			tasks: [{
+				id: "32418BDA1A2FE5EB"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "MV"
+}

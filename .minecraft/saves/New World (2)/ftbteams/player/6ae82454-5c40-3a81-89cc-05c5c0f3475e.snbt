@@ -1,0 +1,17 @@
+{
+	id: "6ae82454-5c40-3a81-89cc-05c5c0f3475e"
+	type: "player"
+	player_name: "BaBcIaAdmin"
+	ranks: {
+		6ae82454-5c40-3a81-89cc-05c5c0f3475e: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "BaBcIaAdmin"
+		"ftbteams:description": ""
+		"ftbteams:color": "#8DFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

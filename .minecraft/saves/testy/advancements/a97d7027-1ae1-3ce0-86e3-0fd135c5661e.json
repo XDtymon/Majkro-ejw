@@ -1,0 +1,1043 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-01-25 22:03:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2026-01-25 22:03:05 +0100",
+      "minecraft:river": "2026-01-25 22:03:10 +0100",
+      "minecraft:stony_shore": "2026-01-25 22:03:50 +0100"
+    },
+    "done": false
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-01-25 22:03:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-01-25 23:08:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-01-25 23:08:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-01-26 07:47:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2026-01-26 07:47:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2026-01-26 22:44:13 +0100"
+    },
+    "done": true
+  },
+  "create:precision_mechanism": {
+    "criteria": {
+      "0": "2026-01-29 22:28:21 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/accelerator_casing_glass": {
+    "criteria": {
+      "item": "2026-01-30 16:33:40 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/accelerator_casing_from_glass": {
+    "criteria": {
+      "item": "2026-01-30 16:33:44 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/target_chamber_casing_glass": {
+    "criteria": {
+      "item": "2026-01-30 16:35:20 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/target_chamber_casing_from_glass": {
+    "criteria": {
+      "item": "2026-01-30 16:35:21 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:decay_hastener": {
+    "criteria": {
+      "decay_hastener": "2026-01-30 16:40:52 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:pressurizer": {
+    "criteria": {
+      "pressurizer": "2026-01-30 16:40:57 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:alloy_smelter": {
+    "criteria": {
+      "alloy_smelter": "2026-01-30 16:40:58 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:analyzer": {
+    "criteria": {
+      "analyzer": "2026-01-30 16:42:00 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:leacher": {
+    "criteria": {
+      "leacher": "2026-01-30 16:42:08 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:assembler": {
+    "criteria": {
+      "assembler": "2026-01-30 16:42:12 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:chemical_reactor": {
+    "criteria": {
+      "chemical_reactor": "2026-01-30 16:43:08 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/leacher": {
+    "criteria": {
+      "item": "2026-01-30 16:43:08 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:isotope_separator": {
+    "criteria": {
+      "isotope_separator": "2026-01-30 16:43:09 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:manufactory": {
+    "criteria": {
+      "manufactory": "2026-01-30 16:43:13 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:expl": {
+    "criteria": {
+      "expl": "2026-01-30 16:44:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_magnesium_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:29 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/blast_magnesium_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:29 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/blast_uranium_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_uranium_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:30 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/blast_boron_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_boron_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_cobalt_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:32 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/blast_cobalt_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:32 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/blast_platinum_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_platinum_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_thorium_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:39 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/blast_thorium_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 16:44:39 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/moresmore": {
+    "criteria": {
+      "item": "2026-01-30 22:31:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-01-30 22:31:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 22:32:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-01-30 22:32:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 22:32:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 22:32:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 22:32:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 22:32:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 22:32:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 22:32:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-01-30 22:32:14 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/blast_silver_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 22:39:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_silver_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 22:39:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_lead_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 22:39:10 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/blast_lead_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 22:39:10 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/blast_lithium_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 22:39:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_lithium_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 22:39:11 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/blast_tin_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 22:39:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_tin_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 22:39:13 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/zinc_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2026-01-30 22:39:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_zinc_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 22:39:17 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/blast_zinc_ore": {
+    "criteria": {
+      "has_ore": "2026-01-30 22:39:17 +0100"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/zinc_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2026-01-30 22:39:17 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/magnesium_diboride_rf_amplifier": {
+    "criteria": {
+      "item": "2026-01-30 22:41:03 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/niobium_titanium_rf_amplifier": {
+    "criteria": {
+      "item": "2026-01-30 22:41:03 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/niobium_tin_rf_amplifier": {
+    "criteria": {
+      "item": "2026-01-30 22:41:03 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/bscco_rf_amplifier": {
+    "criteria": {
+      "item": "2026-01-30 22:41:03 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/basic_electromagnet_n_s": {
+    "criteria": {
+      "item": "2026-01-30 22:48:09 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/bscco_electromagnet": {
+    "criteria": {
+      "item": "2026-01-30 22:48:09 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/niobium_titanium_electromagnet": {
+    "criteria": {
+      "item": "2026-01-30 22:48:09 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/niobium_tin_electromagnet": {
+    "criteria": {
+      "item": "2026-01-30 22:48:09 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/magnesium_diboride_electromagnet": {
+    "criteria": {
+      "item": "2026-01-30 22:48:09 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:basic_barrel": {
+    "criteria": {
+      "basic_barrel": "2026-01-30 22:54:39 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/du_storage_container": {
+    "criteria": {
+      "item": "2026-01-30 22:56:39 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:basic_storage_container": {
+    "criteria": {
+      "basic_storage_container": "2026-01-30 22:56:40 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/elite_storage_container": {
+    "criteria": {
+      "item": "2026-01-30 22:56:40 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/advanced_storage_container": {
+    "criteria": {
+      "item": "2026-01-30 22:56:40 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/fission_reactor_irradiation_chamber": {
+    "criteria": {
+      "item": "2026-01-30 22:56:40 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/electrolyzer": {
+    "criteria": {
+      "item": "2026-01-30 22:57:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/rock_crusher": {
+    "criteria": {
+      "has_item": "2026-01-30 22:57:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/neutronium_frame": {
+    "criteria": {
+      "item": "2026-01-30 22:57:37 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/hev_helmet": {
+    "criteria": {
+      "item": "2026-01-30 22:57:37 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/hev_boots": {
+    "criteria": {
+      "item": "2026-01-30 22:57:37 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/hev_pants": {
+    "criteria": {
+      "item": "2026-01-30 22:57:37 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/subatomic_liquifier": {
+    "criteria": {
+      "item": "2026-01-30 22:57:37 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/hev_chest": {
+    "criteria": {
+      "item": "2026-01-30 22:57:37 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/water_collector": {
+    "criteria": {
+      "item": "2026-01-30 22:57:42 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/nuclear_furnace": {
+    "criteria": {
+      "item": "2026-01-30 22:57:42 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/empty_frame": {
+    "criteria": {
+      "item": "2026-01-30 22:57:42 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/basic_barrel": {
+    "criteria": {
+      "item": "2026-01-30 22:57:42 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/plate_advanced": {
+    "criteria": {
+      "item": "2026-01-30 22:57:42 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/uranium_rtg": {
+    "criteria": {
+      "item": "2026-01-30 22:57:42 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/decay_generator": {
+    "criteria": {
+      "item": "2026-01-30 22:57:42 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/em_calorimeter": {
+    "criteria": {
+      "item": "2026-01-30 22:57:46 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/wire_chamber_casing": {
+    "criteria": {
+      "item": "2026-01-30 22:57:46 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/silicon_tracker": {
+    "criteria": {
+      "item": "2026-01-30 22:57:46 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/hadron_calorimeter": {
+    "criteria": {
+      "item": "2026-01-30 22:57:46 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/bubble_chamber": {
+    "criteria": {
+      "item": "2026-01-30 22:57:46 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/basic_voltaic_pile": {
+    "criteria": {
+      "item": "2026-01-30 22:57:47 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/turbine_casing": {
+    "criteria": {
+      "item": "2026-01-30 22:57:47 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/basic_electromagnet": {
+    "criteria": {
+      "item": "2026-01-30 22:57:47 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/motor": {
+    "criteria": {
+      "item": "2026-01-30 22:57:47 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/solar_panel_basic": {
+    "criteria": {
+      "item": "2026-01-30 22:57:47 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/accelerator_ion_source_port": {
+    "criteria": {
+      "item": "2026-01-30 22:57:53 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/wire_chamber": {
+    "criteria": {
+      "item": "2026-01-30 22:59:27 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/assembler": {
+    "criteria": {
+      "item": "2026-01-30 22:59:29 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/decay_hastener": {
+    "criteria": {
+      "item": "2026-01-30 22:59:29 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/du_lithium_ion_battery": {
+    "criteria": {
+      "item": "2026-01-30 22:59:31 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/elite_lithium_ion_battery": {
+    "criteria": {
+      "item": "2026-01-30 22:59:31 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/advanced_lithium_ion_battery": {
+    "criteria": {
+      "item": "2026-01-30 22:59:31 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/electromagnet_yoke": {
+    "criteria": {
+      "item": "2026-01-30 22:59:32 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/supercooler": {
+    "criteria": {
+      "item": "2026-01-30 22:59:38 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/accelerator_port": {
+    "criteria": {
+      "item": "2026-01-30 22:59:38 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/target_chamber_port": {
+    "criteria": {
+      "item": "2026-01-30 22:59:38 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/du_voltaic_pile": {
+    "criteria": {
+      "item": "2026-01-30 23:00:31 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/du_barrel": {
+    "criteria": {
+      "item": "2026-01-30 23:00:31 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/plate_elite": {
+    "criteria": {
+      "item": "2026-01-30 23:00:31 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/plate_extreme": {
+    "criteria": {
+      "item": "2026-01-30 23:00:32 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/target_chamber_controller": {
+    "criteria": {
+      "item": "2026-01-30 23:00:32 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/elite_barrel": {
+    "criteria": {
+      "item": "2026-01-30 23:00:32 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/linear_accelerator_controller": {
+    "criteria": {
+      "item": "2026-01-30 23:00:32 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/elite_voltaic_pile": {
+    "criteria": {
+      "item": "2026-01-30 23:00:32 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/alloy_smelter": {
+    "criteria": {
+      "item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/irradiator": {
+    "criteria": {
+      "has_item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/chemical_reactor": {
+    "criteria": {
+      "item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/fusion_reactor_casing": {
+    "criteria": {
+      "item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/fluid_infuser": {
+    "criteria": {
+      "has_item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/fusion_reactor_connector": {
+    "criteria": {
+      "item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/ingot_former": {
+    "criteria": {
+      "item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/fusion_core": {
+    "criteria": {
+      "item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/fuel_reprocessor": {
+    "criteria": {
+      "item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/steam_turbine": {
+    "criteria": {
+      "has_item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/pressurizer": {
+    "criteria": {
+      "has_chassis": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/isotope_separator": {
+    "criteria": {
+      "item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/redstone_dimmer": {
+    "criteria": {
+      "item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/extractor": {
+    "criteria": {
+      "has_item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/crystallizer": {
+    "criteria": {
+      "has_item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/target_chamber_camera": {
+    "criteria": {
+      "item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/centrifuge": {
+    "criteria": {
+      "item": "2026-01-30 23:00:35 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/californium_rtg": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/fission_reactor_controller": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/fluid_enricher": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/helium_collector": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/plutonium_rtg": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/melter": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/nitrogen_collector": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/fission_reactor_glass": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/americium_rtg": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/lava_collector": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/fission_reactor_casing": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/advanced_voltaic_pile": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/plate_du": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/advanced_barrel": {
+    "criteria": {
+      "item": "2026-01-30 23:00:36 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:research_paper": {
+    "criteria": {
+      "research_paper": "2026-01-30 23:00:37 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/paper": {
+    "criteria": {
+      "item": "2026-01-30 23:00:37 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/target_chamber_casing": {
+    "criteria": {
+      "item": "2026-01-30 23:00:38 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/accelerator_casing": {
+    "criteria": {
+      "item": "2026-01-30 23:00:38 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/empty_detector": {
+    "criteria": {
+      "item": "2026-01-30 23:00:38 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/scintillator_plastic": {
+    "criteria": {
+      "item": "2026-01-30 23:05:37 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/compact_nitrogen_collector": {
+    "criteria": {
+      "item": "2026-01-30 23:05:42 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/compact_helium_collector": {
+    "criteria": {
+      "item": "2026-01-30 23:07:07 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/compact_water_collector": {
+    "criteria": {
+      "item": "2026-01-30 23:08:44 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/dosimeter": {
+    "criteria": {
+      "item": "2026-01-30 23:08:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2026-01-30 23:14:13 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

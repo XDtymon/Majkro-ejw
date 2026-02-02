@@ -1,0 +1,52 @@
+{
+  "usefulmachinery:recipes/misc/crusher": {
+    "criteria": {
+      "has_machine_frame": "2025-10-24 22:38:10 +0200"
+    },
+    "done": true
+  },
+  "usefulmachinery:recipes/misc/compactor": {
+    "criteria": {
+      "has_machine_frame": "2025-10-24 22:38:10 +0200"
+    },
+    "done": true
+  },
+  "usefulmachinery:recipes/misc/coal_generator": {
+    "criteria": {
+      "has_machine_frame": "2025-10-24 22:38:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-10-24 22:36:35 +0200"
+    },
+    "done": true
+  },
+  "usefulmachinery:recipes/misc/lava_generator": {
+    "criteria": {
+      "has_machine_frame": "2025-10-24 22:38:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-10-24 22:34:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2025-10-24 22:35:50 +0200",
+      "minecraft:savanna": "2025-10-24 22:36:40 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-10-24 22:36:35 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

@@ -1,0 +1,51 @@
+[17:52:34] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[17:52:34] [INIT] Loaded plugins:
+[17:52:34] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[17:52:34] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[17:52:34] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[17:52:34] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[17:52:34] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[17:52:34] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[17:52:34] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[17:52:34] [INFO] Loaded script server_scripts:recipes/create_recipes/sequenced_assembly.js in 0.005 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/create_recipes.js in 0.001 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/custom_recipes.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/fluid_veins.js in 0.001 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/alloy_blast_smelter.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/assembler/nuclearcraft.js in 0.001 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/assembler.js in 0.001 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/assembly_line.js in 0.002 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/autoclave.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/centrifuge.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/circuit_assembler.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/ebf.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/electrolyzer.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/laser_engraver.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mixer.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/arc_polarization_factory.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/high_temperature_turbine.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/plasma_turbine.js in 0.001 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/polarizer.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/nuclearcraft_recipes/fusion.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/recipe_deleter_4000.js in 0.002 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/shaped_recipes.js in 0.0 s
+[17:52:34] [INFO] Loaded script server_scripts:recipes/tags.js in 0.0 s
+[17:52:34] [INFO] Loaded 23/23 KubeJS server scripts in 0.029 s with 0 errors and 0 warnings
+[17:52:34] [INFO] Scripts loaded
+[17:52:34] [INFO] Initializing recipe event...
+[17:52:34] [INFO] [minecraft:block] Found 928 tags, added 4 objects, removed 0 objects
+[17:52:35] [INFO] [minecraft:item] Found 4691 tags, added 7 objects, removed 2 objects
+[17:52:35] [INFO] Processing recipes...
+[17:52:36] [WARN] Failed to parse recipe 'nuclearcraft:toroidal_accelerator_controller_tier_1[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[17:52:36] [WARN] Failed to parse recipe 'nuclearcraft:patchouli_book[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[17:52:37] [INFO] Found 44293 recipes in 1.433 s
+[17:52:37] [WARN] recipes/gregtech_recipes/ebf.js#24: Trying to add more outputs than RecipeType can support, id: gtceu:electric_blast_furnace/chromium_from_c2o3, Max itemOutputs: 3
+[17:52:37] [WARN] recipes/gregtech_recipes/ebf.js#32: Trying to add more outputs than RecipeType can support, id: gtceu:electric_blast_furnace/chromium_from_ruby, Max itemOutputs: 3
+[17:52:37] [INFO] Posted recipe events in 366.3 ms
+[17:52:37] [WARN] Error parsing recipe create:kjs/9h9131be00f1lmy92g4iqhp1u[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredient":{"item":"gtceu:hv_machine_hull"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:filling","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"gtceu:polytetrafluoroethylene","nbt":{},"amount":72}]},{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"item":"minecraft:ender_eye"}]},{"type":"create:pressing","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"}]}],"transitionalItem":{"item":"gtceu:hv_sensor","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
+[17:52:37] [WARN] Error parsing recipe create:kjs/azzgsyc19kgf57oce2jdi5j54[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredient":{"item":"gtceu:quantum_eye"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:fine_palladium_wire"}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:uranium_triplatinum_double_wire"}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:titanium_nugget"}]}],"transitionalItem":{"item":"gtceu:ev_emitter","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
+[17:52:37] [WARN] Error parsing recipe create:kjs/8m78zx29f1sz3e6dpy2j4cb57[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredient":{"item":"gtceu:ev_machine_hull"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:filling","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"gtceu:polytetrafluoroethylene","nbt":{},"amount":72}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"item":"gtceu:quantum_eye"}]},{"type":"create:pressing","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"}]}],"transitionalItem":{"item":"gtceu:ev_sensor","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
+[17:52:38] [INFO] Added 193 recipes, removed 592 recipes, modified 0 recipes, with 3 failed recipes in 1.367 s
+[17:52:38] [INFO] Collecting Custom Machine upgrades from JS scripts.
+[17:52:38] [INFO] Successfully added 0 Custom Machine upgrades
+[17:52:41] [INFO] Server resource reload complete!
