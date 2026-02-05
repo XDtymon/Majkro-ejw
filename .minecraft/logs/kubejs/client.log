@@ -1,14 +1,15 @@
-[18:23:19] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[18:23:19] [INIT] Loaded plugins:
-[18:23:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[18:23:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[18:23:19] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
-[18:23:19] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[18:23:19] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[18:23:19] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[18:23:19] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[18:23:19] [INFO] Loaded script client_scripts:item_lore.js in 0.001 s
-[18:23:19] [INFO] Loaded script client_scripts:jei/nuclearcraft.js in 0.005 s
-[18:23:19] [INFO] Loaded script client_scripts:jei.js in 0.001 s
-[18:23:19] [INFO] Loaded 3/3 KubeJS client scripts in 0.032 s with 0 errors and 0 warnings
-[18:23:23] [INFO] Client resource reload complete!
+[15:36:28] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[15:36:28] [INIT] Loaded plugins:
+[15:36:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[15:36:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[15:36:28] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[15:36:28] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[15:36:28] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[15:36:28] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[15:36:28] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[15:36:29] [INFO] Loaded script client_scripts:item_lore.js in 0.002 s
+[15:36:29] [INFO] Loaded script client_scripts:jei/create.js in 0.0 s
+[15:36:29] [INFO] Loaded script client_scripts:jei/nuclearcraft.js in 0.005 s
+[15:36:29] [INFO] Loaded script client_scripts:jei.js in 0.001 s
+[15:36:29] [INFO] Loaded 4/4 KubeJS client scripts in 0.029 s with 0 errors and 0 warnings
+[15:36:33] [INFO] Client resource reload complete!

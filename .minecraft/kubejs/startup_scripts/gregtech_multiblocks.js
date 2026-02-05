@@ -113,6 +113,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .machine((holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeTypes('arc_polarization_factory')
+        .recipeModifiers([(machine, recipe) => TemperatureModifier(machine, recipe)]) // 
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.
             start()

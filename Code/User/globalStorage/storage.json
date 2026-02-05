@@ -7,7 +7,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1767992610673"
+                "backupFolder": "1770233787324"
             }
         ]
     },
@@ -16,7 +16,8 @@
         "workspaces": {},
         "emptyWindows": {
             "1767991690103": "__default__profile__",
-            "1767992610673": "__default__profile__"
+            "1767992610673": "__default__profile__",
+            "1770233787324": "__default__profile__"
         }
     },
     "theme": "vs-dark",
@@ -51,7 +52,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "C:\\Users\\polko\\AppData\\Roaming\\Crystal-Launcher\\instances\\u.CreateModpack\\Code\\Backups\\1767992610673",
+            "backupPath": "C:\\Users\\polko\\AppData\\Roaming\\Crystal-Launcher\\instances\\u.E\\Code\\Backups\\1770233787324",
             "uiState": {
                 "mode": 0,
                 "x": 680,

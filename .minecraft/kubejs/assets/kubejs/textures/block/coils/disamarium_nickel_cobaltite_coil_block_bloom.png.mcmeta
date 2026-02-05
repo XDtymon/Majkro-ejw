@@ -1,0 +1,9 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/coils/disamarium_nickel_cobaltite_coil_bloom_ctm",
+        "emissive": true
+    },
+    "shimmer": {
+        "bloom": true
+    }
+}

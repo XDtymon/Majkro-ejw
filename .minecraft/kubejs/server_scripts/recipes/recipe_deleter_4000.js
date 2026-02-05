@@ -19,6 +19,7 @@ ServerEvents.recipes(event => {
     event.remove('create:crafting/appliances/chain_from_zinc')
     event.remove('create_factory_logistics:factory_fluid_gauge')
     event.remove('create_factory_logistics:jar_packager')
+    event.remove("create:mixing/brass_ingot")
     //AE2
     event.remove({mod: "ae2"})
     //Nuclear Craft 

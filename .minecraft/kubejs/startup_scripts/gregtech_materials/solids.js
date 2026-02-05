@@ -2,6 +2,7 @@
 //Imports
 
 const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty');
+const $WireProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.WireProperties');
 const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty');
 const $BlastProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty');
 const $HazardProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.HazardProperty');
@@ -38,8 +39,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components('2x samarium', '3x nickel', '3x cobalt')
         //.element(GTElements.get("nickel_cobaltite"))
         .color(0x1B5952).iconSet("metallic")
+        .cableProperties(8192, 6, 0, true)
         .formula("Sm2(NiCo)3")
-        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FRAME)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FRAME)
     event.create("magnetic_disamarium_nickel_cobaltite")
         .ingot().fluid()
         //.element(GTElements.get("nickel_cobaltite"))
@@ -84,7 +86,15 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.Dysprosium.addFlags(GTMaterialFlags.GENERATE_LONG_ROD);
     GTMaterials.Dysprosium.setMaterialARGB(0xABBA5F) 
 
+    GTMaterials.BismuthBronze.setProperty(PropertyKey.WIRE, new $WireProperty(128, 6, 0, true))
+    GTMaterials.BismuthBronze.addFlags(GTMaterialFlags.GENERATE_FOIL);
 
+    GTMaterials.BlackBronze.addFlags(GTMaterialFlags.GENERATE_FOIL);
+    
+    GTMaterials.Niobium.addFlags(GTMaterialFlags.GENERATE_FOIL);
+    GTMaterials.Niobium.addFlags(GTMaterialFlags.GENERATE_ROD);
+    GTMaterials.Niobium.addFlags(GTMaterialFlags.GENERATE_LONG_ROD);
+    GTMaterials.Niobium.addFlags(GTMaterialFlags.GENERATE_RING);
 
     /*event.create("dysprosium")
         .ingot().fluid()
@@ -93,4 +103,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .formula("Dy")
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_DENSE, GTMaterialFlags.GENERATE_FRAME)
     */
+})
+
+
+GTCEuStartupEvents.materialModification(event => {
+    
 })

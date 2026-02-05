@@ -402,7 +402,7 @@ ServerEvents.recipes(event => {
             "gtceu:tungsten_steel_crate"
         )
         .itemOutputs("8x ae2:item_cell_housing")
-        .duration(45000)
+        .duration(9000)
         .EUt(16384)
         .stationResearch(b => b
             .researchStack("gtceu:osmiridium_normal_item_pipe")

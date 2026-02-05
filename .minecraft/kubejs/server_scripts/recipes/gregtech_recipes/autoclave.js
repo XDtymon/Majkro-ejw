@@ -12,5 +12,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("ae2:fluix_pearl")
         .duration(1200)
         .EUt(16384)
-
+    event.recipes.gtceu.autoclave("rose_quartz")
+        .itemInputs("minecraft:quartz")
+        .inputFluids("gtceu:redstone 72")
+        .itemOutputs("create:rose_quartz")
+        .duration(280)
+        .EUt(GTValues.VA[GTValues.HV])
 })
