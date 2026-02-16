@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
     //AE2
     event.remove({mod: "ae2"})
     //Nuclear Craft 
-    //event.remove({mod: "nuclearcraft"})
+    event.remove({mod: "nuclearcraft"})
     //GT
     event.remove('gtceu:shapeless/coated_board_1x')
     event.remove('gtceu:shapeless/coated_board')
@@ -36,6 +36,7 @@ ServerEvents.recipes(event => {
     event.remove('gtceu:electrolyzer/decomposition_electrolyzing_chromite')
     event.remove('gtceu:electrolyzer/decomposition_electrolyzing_ruby')
     event.remove('gtceu:electrolyzer/decomposition_electrolyzing_uvarovite')
+    //event.remove(/gtceu:fusion_reactor.*/)
 
     //Circuits
     event.remove('create:sequenced_assembly/precision_mechanism')

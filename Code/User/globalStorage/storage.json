@@ -7,7 +7,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1770233787324"
+                "backupFolder": "1771234089493"
             }
         ]
     },
@@ -15,9 +15,7 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1767991690103": "__default__profile__",
-            "1767992610673": "__default__profile__",
-            "1770233787324": "__default__profile__"
+            "1771234089493": "__default__profile__"
         }
     },
     "theme": "vs-dark",
@@ -52,7 +50,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "C:\\Users\\polko\\AppData\\Roaming\\Crystal-Launcher\\instances\\u.E\\Code\\Backups\\1770233787324",
+            "backupPath": "C:\\Users\\polko\\AppData\\Roaming\\Crystal-Launcher\\instances\\u.E\\Code\\Backups\\1771234089493",
             "uiState": {
                 "mode": 0,
                 "x": 680,

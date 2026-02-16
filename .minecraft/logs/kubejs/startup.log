@@ -1,28 +1,30 @@
-[15:36:27] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[15:36:27] [INIT] Loaded plugins:
-[15:36:27] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[15:36:27] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[15:36:27] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
-[15:36:27] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[15:36:27] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[15:36:27] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[15:36:27] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[15:36:28] [INFO] Loaded script startup_scripts:recipe_types.js in 0.041 s
-[15:36:28] [INFO] Loaded script startup_scripts:gregtech_materials/coils.js in 0.008 s
-[15:36:28] [INFO] gregtech_materials/solids.js#4: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty'
-[15:36:28] [INFO] gregtech_materials/solids.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.WireProperties'
-[15:36:28] [INFO] gregtech_materials/solids.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty'
-[15:36:28] [INFO] gregtech_materials/solids.js#7: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty'
-[15:36:28] [INFO] gregtech_materials/solids.js#8: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.HazardProperty'
-[15:36:28] [INFO] Loaded script startup_scripts:gregtech_materials/solids.js in 0.008 s
-[15:36:28] [INFO] gregtech_multiblocks.js#1: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.GTRecipe'
-[15:36:28] [INFO] gregtech_multiblocks.js#2: Loaded Java class 'com.gregtechceu.gtceu.api.machine.MetaMachine'
-[15:36:28] [INFO] gregtech_multiblocks.js#3: Loaded Java class 'com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine'
-[15:36:28] [INFO] gregtech_multiblocks.js#4: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.generator.LargeTurbineMachine'
-[15:36:28] [INFO] gregtech_multiblocks.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.machine.multiblock.WorkableElectricMultiblockMachine'
-[15:36:28] [INFO] gregtech_multiblocks.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.modifier.ModifierFunction'
-[15:36:28] [INFO] Loaded script startup_scripts:gregtech_multiblocks.js in 0.077 s
-[15:36:28] [INFO] Loaded script startup_scripts:registries/blocks.js in 0.001 s
-[15:36:28] [INFO] Loaded script startup_scripts:registries/fluids.js in 0.001 s
-[15:36:28] [INFO] Loaded script startup_scripts:registries/items.js in 0.0 s
-[15:36:28] [INFO] Loaded 7/7 KubeJS startup scripts in 0.817 s with 0 errors and 0 warnings
+[21:53:33] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[21:53:33] [INIT] Loaded plugins:
+[21:53:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[21:53:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[21:53:33] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[21:53:33] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[21:53:33] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[21:53:33] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[21:53:33] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[21:53:34] [INFO] Loaded script startup_scripts:recipe_types.js in 0.052 s
+[21:53:34] [INFO] Loaded script startup_scripts:gregtech_materials/coils.js in 0.012 s
+[21:53:34] [INFO] gregtech_materials/solids.js#4: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty'
+[21:53:34] [INFO] gregtech_materials/solids.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.WireProperties'
+[21:53:34] [INFO] gregtech_materials/solids.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty'
+[21:53:34] [INFO] gregtech_materials/solids.js#7: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty'
+[21:53:34] [INFO] gregtech_materials/solids.js#8: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.HazardProperty'
+[21:53:34] [INFO] Loaded script startup_scripts:gregtech_materials/solids.js in 0.012 s
+[21:53:34] [INFO] Loaded script startup_scripts:registries/blocks.js in 0.001 s
+[21:53:34] [INFO] Loaded script startup_scripts:registries/fluids.js in 0.001 s
+[21:53:34] [INFO] Loaded script startup_scripts:registries/gregtech_machines.js in 0.001 s
+[21:53:34] [INFO] registries/gregtech_multiblocks.js#1: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.GTRecipe'
+[21:53:34] [INFO] registries/gregtech_multiblocks.js#2: Loaded Java class 'com.gregtechceu.gtceu.api.machine.MetaMachine'
+[21:53:34] [INFO] registries/gregtech_multiblocks.js#3: Loaded Java class 'com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine'
+[21:53:34] [INFO] registries/gregtech_multiblocks.js#4: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.generator.LargeTurbineMachine'
+[21:53:34] [INFO] registries/gregtech_multiblocks.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.machine.multiblock.WorkableElectricMultiblockMachine'
+[21:53:34] [INFO] registries/gregtech_multiblocks.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.modifier.ModifierFunction'
+[21:53:34] [INFO] registries/gregtech_multiblocks.js#7: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.steam.SteamParallelMultiblockMachine'
+[21:53:34] [INFO] Loaded script startup_scripts:registries/gregtech_multiblocks.js in 0.048 s
+[21:53:34] [INFO] Loaded script startup_scripts:registries/items.js in 0.001 s
+[21:53:34] [INFO] Loaded 8/8 KubeJS startup scripts in 0.769 s with 0 errors and 0 warnings

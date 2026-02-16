@@ -1,0 +1,10 @@
+2026-02-16 10:28:08.825 [error] Error: Error mutex already exists
+    at qu.S (file:///C:/Users/polko/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:142:18405)
+2026-02-16 10:28:08.833 [info] update#setState idle
+2026-02-16 10:28:38.834 [info] update#setState checking for updates
+2026-02-16 10:28:38.891 [info] update#setState downloading
+2026-02-16 10:28:38.892 [info] update#setState downloaded
+2026-02-16 10:28:38.892 [info] update#setState updating
+2026-02-16 10:28:38.903 [info] update#setState ready
+2026-02-16 10:28:45.342 [info] update#setState idle
+2026-02-16 10:29:03.498 [info] Extension host with pid 16252 exited with code: 0, signal: unknown.

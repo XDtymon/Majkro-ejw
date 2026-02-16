@@ -178,6 +178,16 @@
 			x: 8.0d
 			y: 0.0d
 		}
+		{
+			id: "76AE88822CDF66FC"
+			tasks: [{
+				id: "5ED39DB7C7749FE3"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
 	]
 	title: "MV"
 }

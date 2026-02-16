@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 
     //Fusion Core Function
 
-    /*
+    
     function Fusion(
         fluidInput_list, 
         fluidOutput_list,
@@ -50,11 +50,122 @@ ServerEvents.recipes(event => {
         })
     }
 
-    */
+
 
     //Usage
 
-
+    Fusion(
+        [
+            ["forge:gold", 16],
+            ["forge:aluminium", 16]
+        ],
+        [
+            ["gtceu:uranium", 4],
+            ["gtceu:uranium", 4],
+            ["gtceu:uranium", 4],
+            ["gtceu:uranium", 4]
+        ],
+        480,
+        97500,
+        5400,
+        2.3
+    )   
+    Fusion(
+        [
+            ["forge:silicon", 16],
+            ["forge:magnesium", 16]
+        ],
+        [
+            ["gtceu:iron_plasma", 4],
+            ["gtceu:iron_plasma", 4],
+            ["gtceu:iron_plasma", 4],
+            ["gtceu:iron_plasma", 4]
+        ],
+        5,
+        208000,
+        7800,
+        1
+    )  
+    Fusion(
+        [
+            ["forge:arsenic", 16],
+            ["forge:ruthenium", 8]
+        ],
+        [
+            ["gtceu:darmstadtium", 4],
+            ["gtceu:darmstadtium", 4],
+            ["gtceu:darmstadtium", 4],
+            ["gtceu:darmstadtium", 4]
+        ],
+        40,
+        126700,
+        68000,
+        1
+    )  
+    Fusion(
+        [
+            ["forge:xenon", 64],
+            ["forge:zinc", 4]
+        ],
+        [
+            ["gtceu:plutonium", 4],
+            ["gtceu:plutonium", 4],
+            ["gtceu:plutonium", 4],
+            ["gtceu:plutonium", 4]
+        ],
+        80,
+        348000,
+        24000,
+        3
+    ) 
+    Fusion(
+        [
+            ["forge:hydrogen", 64],
+            ["forge:vanadium", 4]
+        ],
+        [
+            ["gtceu:chromium", 4],
+            ["gtceu:chromium", 4],
+            ["gtceu:chromium", 4],
+            ["gtceu:chromium", 4]
+        ],
+        25,
+        280,
+        8640,
+        1
+    ) 
+    Fusion(
+        [
+            ['forge:radon', 32],
+            ['forge:gallium', 4]
+        ],
+        [
+            ["gtceu:duranium", 2],
+            ["gtceu:duranium", 2],
+            ["gtceu:duranium", 2],
+            ["gtceu:duranium", 2]
+        ],
+        6,
+        495700,
+        230710,
+        3
+    ) 
+    Fusion(
+        [
+            ["forge:hydrogen", 32],
+            ["forge:neodymium", 4]
+        ],
+        [
+            ["gtceu:europium", 1],
+            ["gtceu:europium", 1],
+            ["gtceu:europium", 1],
+            ["gtceu:europium", 1]
+        ],
+        3,
+        92700,
+        145690,
+        1
+    ) 
 })
 
 

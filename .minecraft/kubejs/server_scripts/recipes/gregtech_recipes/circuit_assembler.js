@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
             'gtceu:double_annealed_copper_plate'
         ],
         ["gtceu:lutetium 72"],
-        'ae2:logic_calculation',
+        'ae2:calculation_processor',
         GTValues.VA[GTValues.LuV],
         480,
         1
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
     circuitAssembler(
         [
             'ae2:printed_engineering_processor',
-            'gtceu:yellow_blue_lens',
+            'gtceu:blue_glass_lens',
             '2x #gtceu:circuits/iv',
             '8x gtceu:fine_iridium_wire',
             'gtceu:double_annealed_copper_plate'

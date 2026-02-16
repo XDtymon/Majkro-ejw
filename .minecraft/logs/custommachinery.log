@@ -1,0 +1,15 @@
+[21:54:07.501][INFO]: Parsing all .json files in machines folder.
+[21:54:07.501][INFO]: Parsing all .json files in upgrades folder.
+[21:54:07.503][INFO]: Finished, 0 .json files successfully parsed in upgrades folder.
+[21:54:07.505][INFO]: Finished, 2 .json files successfully parsed in machines folder.
+[21:54:11.705][INFO]: Reading Custom Machinery Machines...
+[21:54:11.711][INFO]: Parsing machine json: custommachinery:steam_generator in datapack: data/MachinesForDaModpack
+[21:54:11.733][INFO]: Successfully parsed machine json: custommachinery:steam_generator
+[21:54:11.734][INFO]: Parsing machine json: custommachinery:lv_kinetic_hatch in datapack: data/MachinesForDaModpack
+[21:54:11.734][INFO]: Successfully parsed machine json: custommachinery:lv_kinetic_hatch
+[21:54:11.734][INFO]: Finished creating 2 custom machines.
+[21:54:11.735][INFO]: Reading Custom Machinery Upgrades json
+[21:54:11.736][INFO]: No machine upgrade json found.
+[21:54:11.736][INFO]: Collecting machine upgrades with kubeJS.
+[21:54:11.738][INFO]: No machine upgrades found with kubejs
+[21:54:11.738][INFO]: Finished creating custom machine upgrades.

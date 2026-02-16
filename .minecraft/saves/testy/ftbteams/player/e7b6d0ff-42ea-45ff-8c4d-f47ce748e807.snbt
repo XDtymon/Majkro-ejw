@@ -1,0 +1,17 @@
+{
+	id: "e7b6d0ff-42ea-45ff-8c4d-f47ce748e807"
+	type: "player"
+	player_name: "PewienKot_"
+	ranks: {
+		e7b6d0ff-42ea-45ff-8c4d-f47ce748e807: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "PewienKot_"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59D1"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         ],
         1
     )
-        mixer( //Bronze
+    mixer( //Bronze
         [
             "#forge:ingots/zink",
             "3x #forge:ingots/copper"
@@ -49,5 +49,15 @@ ServerEvents.recipes(event => {
         ],
         1
   
+    )
+    mixer( //Bronze
+        [
+            "#forge:ingots/iron",
+            "3x minecraft:coal"
+        ],
+        [
+            "gtceu:steel_ingot"
+        ],
+        2
     )
 })

@@ -1,0 +1,35 @@
+{
+  "type": "nuclearcraft:fusion_core",
+  "inputFluids": [
+    {
+      "amount": 16,
+      "tag": "gtceu:neodymium"
+    },
+    {
+      "amount": 64,
+      "tag": "gtceu:silicon"
+    }
+  ],
+  "outputFluids": [
+    {
+      "amount": 4,
+      "tag": "gtceu:lutetium"
+    },
+    {
+      "amount": 4,
+      "tag": "gtceu:lutetium"
+    },
+    {
+      "amount": 4,
+      "tag": "gtceu:lutetium"
+    },
+    {
+      "amount": 4,
+      "tag": "gtceu:lutetium"
+    }
+  ],
+  "powerModifier": 48000.0,
+  "radiation": 1,
+  "temperature": 2480.0,
+  "timeModifier": 60.0
+}
