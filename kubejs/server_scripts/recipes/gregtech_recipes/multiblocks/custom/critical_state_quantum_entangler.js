@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
                 .itemOutputs('ae2:'+cells[c]+"_storage_cell_"+cellTypes[t])
                 .totalCWU(gtPower[t] * 2) //gtPower[t] / 512
                 .EUt(gtPower[t])
-                .CWUt(8*t)
+                .CWUt(8*(t+1))
         }
     }
 
