@@ -1,9 +1,0 @@
-2026-01-06 17:25:30.080 [info] Started local extension host with pid 26440.
-2026-01-06 17:25:30.704 [info] MCP Registry configured: https://api.mcp.github.com
-2026-01-06 17:25:30.943 [info] Settings Sync: Account status changed from uninitialized to unavailable
-2026-01-06 17:25:32.645 [warning] Failed to fetch chat participant registry Offline
-2026-01-06 17:25:32.776 [info] [perf] Render performance baseline is 17ms
-2026-01-06 17:30:32.660 [warning] Failed to fetch chat participant registry Offline
-2026-01-06 17:35:32.666 [warning] Failed to fetch chat participant registry Offline
-2026-01-06 17:40:32.669 [warning] Failed to fetch chat participant registry Offline
-2026-01-06 17:45:33.057 [warning] Failed to fetch chat participant registry Offline

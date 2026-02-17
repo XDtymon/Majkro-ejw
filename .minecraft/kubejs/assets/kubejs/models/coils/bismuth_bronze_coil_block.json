@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "kubejs:block/coils/bismuth_bronze_coil_block"
-  }
-}

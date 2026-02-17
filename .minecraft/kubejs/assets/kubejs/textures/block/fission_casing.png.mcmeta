@@ -1,9 +1,0 @@
-{
-    "ctm": {
-        "ctm_version": 1,
-        "type": "edges",
-        "textures": [
-            "blocks/fission_casing_ctm_2"
-        ]
-    }
-}
