@@ -1,145 +1,145 @@
-[13:04:28] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[13:04:28] [INIT] Loaded plugins:
-[13:04:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[13:04:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[13:04:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[13:04:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[13:04:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[13:04:28] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
-[13:04:28] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[13:04:28] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[13:04:28] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[13:04:28] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[13:04:28] [INFO] Loaded script server_scripts:fluid_veins.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/create_recipes/sequenced_assembly.js in 0.001 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/create_recipes.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/custom_recipes.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/alloy_blast_smelter.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/assembler.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/assembly_line.js in 0.001 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/autoclave.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/canner.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/centrifuge.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/circuit_assembler.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/ebf.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/electrolyzer.js in 0.001 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/extractor.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/laser_engraver.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mixer.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mods/nuclearcraft/smore.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mods/nuclearcraft.js in 0.002 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/coils.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/arc_polarization_factory.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/critical_state_quantum_entangler.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/greenhouse.js in 0.001 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/high_force_press.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/high_temperature_turbine.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/plasma_turbine.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/polarizer.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/nuclearcraft_recipes/fusion.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/recipe_deleter_4000.js in 0.001 s
-[13:04:28] [INFO] Loaded script server_scripts:recipes/shaped_recipes.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:tags.js in 0.0 s
-[13:04:28] [INFO] Loaded script server_scripts:veins.js in 0.0 s
-[13:04:28] [INFO] Loaded 31/31 KubeJS server scripts in 0.017 s with 0 errors and 0 warnings
-[13:04:28] [INFO] Scripts loaded
-[13:04:28] [INFO] Initializing recipe event...
-[13:04:28] [INFO] [minecraft:fluid] Found 1040 tags, added 22 objects, removed 0 objects
-[13:04:28] [INFO] [minecraft:block] Found 939 tags, added 6 objects, removed 0 objects
-[13:04:28] [INFO] [minecraft:item] Found 4765 tags, added 7 objects, removed 2 objects
-[13:04:29] [INFO] Processing recipes...
-[13:04:29] [WARN] Failed to parse recipe 'nuclearcraft:toroidal_accelerator_controller_tier_1[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[13:04:29] [WARN] Failed to parse recipe 'nuclearcraft:patchouli_book[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[13:04:30] [INFO] Found 44903 recipes in 872.1 ms
-[13:04:30] [WARN] recipes/gregtech_recipes/ebf.js#24: Trying to add more outputs than RecipeType can support, id: gtceu:electric_blast_furnace/chromium_from_c2o3, Max itemOutputs: 3
-[13:04:30] [WARN] recipes/gregtech_recipes/ebf.js#32: Trying to add more outputs than RecipeType can support, id: gtceu:electric_blast_furnace/chromium_from_ruby, Max itemOutputs: 3
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_thorium_tbu_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_thorium_tbu_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_thorium_tbu_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_hea_242_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_hea_242_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_hea_242_ni had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_lea_242_ox had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_lea_242_za had been registered!
-[13:04:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_lea_242_ni had been registered!
-[13:04:30] [ERROR] ! Error in 'ServerEvents.recipes': CWUt can't be explicitly set to 0, id: null
-[13:04:30] [INFO] Posted recipe events in 23.45 ms
-[13:04:30] [WARN] Error parsing recipe nuclearcraft:patchouli_book[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"tag":"forge:ingots/uranium"},{"item":"minecraft:book"}],"result":{"item":"patchouli:guide_book","nbt":{"patchouli:book":"nuclearcraft:nuclearcraft"}},"show_notification":true}: Unknown item 'patchouli:guide_book'
-[13:04:30] [WARN] Error parsing recipe nuclearcraft:toroidal_accelerator_controller_tier_1[minecraft:crafting_shaped]: {"category":"misc","group":"nuclearcraft_toroidal_accelerator_tier1","type":"minecraft:crafting_shaped","key":{"B":{"item":"nuclearcraft:toroidal_accelerator_controller","nbt":"{}"},"I":{"item":"nuclearcraft:upgrade_energy"}},"pattern":["III","IBI","III"],"result":{"item":"nuclearcraft:toroidal_accelerator_controller","nbt":"{upgrade_tier:1}"},"show_notification":true}: Unknown item 'nuclearcraft:toroidal_accelerator_controller'
-[13:04:30] [WARN] Error parsing recipe create:kjs/9h9131be00f1lmy92g4iqhp1u[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredient":{"item":"gtceu:hv_machine_hull"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:filling","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"gtceu:polytetrafluoroethylene","nbt":{},"amount":72}]},{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"item":"minecraft:ender_eye"}]},{"type":"create:pressing","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"}]}],"transitionalItem":{"item":"gtceu:hv_sensor","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
-[13:04:30] [WARN] Error parsing recipe create:kjs/azzgsyc19kgf57oce2jdi5j54[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredient":{"item":"gtceu:quantum_eye"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:fine_palladium_wire"}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:uranium_triplatinum_double_wire"}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:titanium_nugget"}]}],"transitionalItem":{"item":"gtceu:ev_emitter","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
-[13:04:30] [WARN] Error parsing recipe create:kjs/8m78zx29f1sz3e6dpy2j4cb57[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredient":{"item":"gtceu:ev_machine_hull"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:filling","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"gtceu:polytetrafluoroethylene","nbt":{},"amount":72}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"item":"gtceu:quantum_eye"}]},{"type":"create:pressing","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"}]}],"transitionalItem":{"item":"gtceu:ev_sensor","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
-[13:04:30] [ERROR] ! Duplicate added recipe for id gtceu:extractor/cocoa_beans!
+[14:13:49] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[14:13:49] [INIT] Loaded plugins:
+[14:13:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[14:13:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[14:13:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[14:13:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[14:13:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[14:13:49] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[14:13:49] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[14:13:49] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[14:13:49] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[14:13:49] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[14:13:49] [INFO] Loaded script server_scripts:fluid_veins.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/create_recipes/sequenced_assembly.js in 0.001 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/create_recipes.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/custom_recipes.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/alloy_blast_smelter.js in 0.001 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/assembler.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/assembly_line.js in 0.001 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/autoclave.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/canner.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/centrifuge.js in 0.001 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/circuit_assembler.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/ebf.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/electrolyzer.js in 0.001 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/extractor.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/laser_engraver.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mixer.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mods/nuclearcraft/smore.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mods/nuclearcraft.js in 0.003 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/coils.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/arc_polarization_factory.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/critical_state_quantum_entangler.js in 0.001 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/greenhouse.js in 0.001 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/high_force_press.js in 0.002 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/high_temperature_turbine.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/plasma_turbine.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/polarizer.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/nuclearcraft_recipes/fusion.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/recipe_deleter_4000.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:recipes/shaped_recipes.js in 0.001 s
+[14:13:49] [INFO] Loaded script server_scripts:tags.js in 0.0 s
+[14:13:49] [INFO] Loaded script server_scripts:veins.js in 0.001 s
+[14:13:49] [INFO] Loaded 31/31 KubeJS server scripts in 0.027 s with 0 errors and 0 warnings
+[14:13:49] [INFO] Scripts loaded
+[14:13:49] [INFO] Initializing recipe event...
+[14:13:49] [INFO] [minecraft:fluid] Found 1040 tags, added 22 objects, removed 0 objects
+[14:13:49] [INFO] [minecraft:block] Found 939 tags, added 6 objects, removed 0 objects
+[14:13:50] [INFO] [minecraft:item] Found 4765 tags, added 7 objects, removed 2 objects
+[14:13:50] [INFO] Processing recipes...
+[14:13:50] [WARN] Failed to parse recipe 'nuclearcraft:toroidal_accelerator_controller_tier_1[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:13:51] [WARN] Failed to parse recipe 'nuclearcraft:patchouli_book[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:13:51] [INFO] Found 45182 recipes in 1.057 s
+[14:13:51] [WARN] recipes/gregtech_recipes/ebf.js#24: Trying to add more outputs than RecipeType can support, id: gtceu:electric_blast_furnace/chromium_from_c2o3, Max itemOutputs: 3
+[14:13:51] [WARN] recipes/gregtech_recipes/ebf.js#32: Trying to add more outputs than RecipeType can support, id: gtceu:electric_blast_furnace/chromium_from_ruby, Max itemOutputs: 3
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_thorium_tbu_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_thorium_tbu_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_thorium_tbu_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_hea_242_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_hea_242_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_hea_242_ni had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_lea_242_ox had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_lea_242_za had been registered!
+[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_lea_242_ni had been registered!
+[14:13:51] [ERROR] ! Error in 'ServerEvents.recipes': CWUt can't be explicitly set to 0, id: null
+[14:13:51] [INFO] Posted recipe events in 42.96 ms
+[14:13:51] [WARN] Error parsing recipe nuclearcraft:patchouli_book[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"tag":"forge:ingots/uranium"},{"item":"minecraft:book"}],"result":{"item":"patchouli:guide_book","nbt":{"patchouli:book":"nuclearcraft:nuclearcraft"}},"show_notification":true}: Unknown item 'patchouli:guide_book'
+[14:13:51] [WARN] Error parsing recipe nuclearcraft:toroidal_accelerator_controller_tier_1[minecraft:crafting_shaped]: {"category":"misc","group":"nuclearcraft_toroidal_accelerator_tier1","type":"minecraft:crafting_shaped","key":{"B":{"item":"nuclearcraft:toroidal_accelerator_controller","nbt":"{}"},"I":{"item":"nuclearcraft:upgrade_energy"}},"pattern":["III","IBI","III"],"result":{"item":"nuclearcraft:toroidal_accelerator_controller","nbt":"{upgrade_tier:1}"},"show_notification":true}: Unknown item 'nuclearcraft:toroidal_accelerator_controller'
+[14:13:51] [WARN] Error parsing recipe create:kjs/azzgsyc19kgf57oce2jdi5j54[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredient":{"item":"gtceu:quantum_eye"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:fine_palladium_wire"}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:uranium_triplatinum_double_wire"}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:titanium_nugget"}]}],"transitionalItem":{"item":"gtceu:ev_emitter","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
+[14:13:52] [WARN] Error parsing recipe create:kjs/9h9131be00f1lmy92g4iqhp1u[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredient":{"item":"gtceu:hv_machine_hull"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:filling","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"gtceu:polytetrafluoroethylene","nbt":{},"amount":72}]},{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"item":"minecraft:ender_eye"}]},{"type":"create:pressing","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"}]}],"transitionalItem":{"item":"gtceu:hv_sensor","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
+[14:13:52] [ERROR] ! Duplicate added recipe for id gtceu:extractor/cocoa_beans!
 Recipe A: {type=gtceu:machine, in=[], out='minecraft:air'}
 Recipe B: {type=gtceu:machine, in=[], out='minecraft:air'}
 Using last one encountered.
-[13:04:31] [INFO] Added 300 recipes, removed 0 recipes, modified 0 recipes, with 5 failed recipes in 736.7 ms
-[13:04:31] [INFO] Collecting Custom Machine upgrades from JS scripts.
-[13:04:31] [INFO] Successfully added 0 Custom Machine upgrades
-[13:04:32] [INFO] Server resource reload complete!
+[14:13:52] [WARN] Error parsing recipe create:kjs/8m78zx29f1sz3e6dpy2j4cb57[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredient":{"item":"gtceu:ev_machine_hull"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:filling","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"gtceu:polytetrafluoroethylene","nbt":{},"amount":72}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"item":"gtceu:quantum_eye"}]},{"type":"create:pressing","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"}]}],"transitionalItem":{"item":"gtceu:ev_sensor","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
+[14:13:52] [INFO] Added 302 recipes, removed 0 recipes, modified 0 recipes, with 5 failed recipes in 862.3 ms
+[14:13:52] [INFO] Collecting Custom Machine upgrades from JS scripts.
+[14:13:52] [INFO] Successfully added 0 Custom Machine upgrades
+[14:13:54] [INFO] Server resource reload complete!

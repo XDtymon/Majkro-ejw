@@ -1,162 +1,30 @@
-[11:54:06] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[11:54:06] [INIT] Loaded plugins:
-[11:54:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[11:54:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[11:54:06] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[11:54:06] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[11:54:06] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[11:54:06] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
-[11:54:06] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[11:54:06] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[11:54:06] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[11:54:06] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[11:54:06] [INFO] Loaded script client_scripts:item_lore.js in 0.001 s
-[11:54:06] [INFO] Loaded script client_scripts:jei/create.js in 0.0 s
-[11:54:06] [INFO] Loaded script client_scripts:jei/nuclearcraft.js in 0.004 s
-[11:54:06] [INFO] Loaded script client_scripts:jei.js in 0.0 s
-[11:54:06] [INFO] Loaded 4/4 KubeJS client scripts in 0.026 s with 0 errors and 0 warnings
-[11:54:11] [INFO] Client resource reload complete!
-[11:55:23] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[11:55:23] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@362eee51.
-[11:55:23] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@3af511d8.
-[11:55:31] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:27:50] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:27:56] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:27:57] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@2beefe1d.
-[12:27:57] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@31d71ea6.
-[12:30:42] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:42] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:42] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:43] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:44] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:51] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:30:55] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:33:23] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:33:23] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:34:40] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[12:34:45] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[13:04:32] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[13:04:38] [ERROR] ! item_lore.js#13: Error while gathering tooltip for 1 high_temperature_turbine: TypeError: Cannot find function pink in object literal{LuV}.
-[13:04:39] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@1977a6ac.
-[13:04:39] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@69bfb60b.
+[13:14:43] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[13:14:43] [INIT] Loaded plugins:
+[13:14:43] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[13:14:43] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[13:14:43] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[13:14:43] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[13:14:43] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[13:14:43] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[13:14:43] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[13:14:43] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[13:14:43] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[13:14:43] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[13:14:43] [INFO] Loaded script client_scripts:item_lore.js in 0.001 s
+[13:14:43] [INFO] Loaded script client_scripts:jei/create.js in 0.0 s
+[13:14:43] [INFO] Loaded script client_scripts:jei/nuclearcraft.js in 0.005 s
+[13:14:43] [INFO] Loaded script client_scripts:jei.js in 0.001 s
+[13:14:43] [INFO] Loaded 4/4 KubeJS client scripts in 0.029 s with 0 errors and 0 warnings
+[13:14:47] [INFO] Client resource reload complete!
+[13:16:36] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@7f6f98e9.
+[13:16:36] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@33e508ca.
+[13:21:09] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@fe01b2d.
+[13:21:09] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@55b8fe38.
+[13:55:43] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@15561cc3.
+[13:55:43] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@4d263ebf.
+[14:14:05] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@431653d.
+[14:14:05] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@3cbe936a.
+[14:18:51] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@55c77b76.
+[14:18:51] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@4dd3da77.
+[14:53:58] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@1ba6db36.
+[14:53:58] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@228a3393.
