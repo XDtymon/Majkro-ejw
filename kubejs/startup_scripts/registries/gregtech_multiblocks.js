@@ -276,7 +276,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 
             .build()
         )
-        .workableCasingModel('gtceu:block/casings/solid/machine_casing_solid_steel','gtceu:block/multiblock/generator/evaporation_plant')
+        .workableCasingModel('gtceu:block/casings/solid/machine_casing_solid_steel','gtceu:block/multiblock/evaporation_plant')
 
     event.create('critical_state_quantum_entangler', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
@@ -309,7 +309,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 
             .build()
         )
-        .workableCasingModel('gtceu:block/casings/solid/machine_casing_solid_steel','gtceu:block/multiblock/generator/evaporation_plant')
+        .workableCasingModel('gtceu:block/casings/cleanroom/filter_casing','gtceu:block/multiblock/fusion_reactor')
 })
 
 

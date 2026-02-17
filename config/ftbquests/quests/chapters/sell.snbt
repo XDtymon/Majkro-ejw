@@ -6,15 +6,6 @@
 	id: "541BA9D0142CE9EC"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "51204934E29386FF"
-		tasks: [{
-			id: "6DEE226EC78C03C9"
-			item: "gtceu:chocolate_coin"
-			type: "item"
-		}]
-		x: -7.0d
-		y: -3.5d
-	}]
+	quests: [ ]
 	title: "Sell"
 }

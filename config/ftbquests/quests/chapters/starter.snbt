@@ -11,6 +11,11 @@
 		id: "7202C582E9063552"
 		shape: "gear"
 		size: 5.0d
+		tasks: [{
+			id: "4856875A1F6E6992"
+			title: "Yeah!"
+			type: "checkmark"
+		}]
 		title: "Starter!"
 		x: 0.0d
 		y: 0.0d

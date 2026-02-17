@@ -8,10 +8,9 @@ ServerEvents.recipes(event => {
             event.recipes.gtceu.critical_state_quantum_entangler()
                 .itemInputs('ae2:'+cells[c]+"_cell_housing", "ae2:cell_component_"+cellTypes[t])
                 .itemOutputs('ae2:'+cells[c]+"_storage_cell_"+cellTypes[t])
-                .totalCWU(gtPower[t] / 512)
-                .duration(1200)
+                .totalCWU(gtPower[t] * 2) //gtPower[t] / 512
                 .EUt(gtPower[t])
-                .CWUt(cwut)
+                .CWUt(8*t)
         }
     }
 

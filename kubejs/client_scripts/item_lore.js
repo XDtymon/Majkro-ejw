@@ -6,11 +6,11 @@ ItemEvents.tooltip(event => {
 
     event.addAdvanced('gtceu:high_temperature_turbine', (item, advanced, text) => {
         
-        text.add(0, [
+        text.add(1, [
             Text.of('Base Production: ').yellow(), 
             Text.of('65536 EU/t').white()
         ])
-        text.add(1, [
+        text.add(2, [
             Text.of('Each Rotor Holder Above').white(),
             Text.of('LuV').pink(), 
             Text.of('adds').gray(),

@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7202C582E9063552"]
 			description: [""]
 			icon: {
 				Count: 1

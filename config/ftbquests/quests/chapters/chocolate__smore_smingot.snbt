@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chocolate__smore_smingot"
+	group: "7E77F1232EEDA634"
+	icon: "nuclearcraft:unsweetened_chocolate"
+	id: "19561602C3BB8C0D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0D48CE3637A0C13C"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "146A62012173C828"
+				item: "nuclearcraft:evenmoresmore"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "0F9CAD3F5C435271"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "6AA316223E0EB297"
+					item: "create:chocolate_glazed_berries"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0822E1A08A2F64FD"
+					item: "create:sweet_roll"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2A7E12C9C447FE56"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "253850E52D011F6C"
+					item: "create:bar_of_chocolate"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0D48CE3637A0C13C"
+				"0F9CAD3F5C435271"
+			]
+			icon: "minecraft:sugar"
+			id: "2A8E97FB65404242"
+			rewards: [
+				{
+					count: 128
+					id: "36254F2DD35192DC"
+					item: "gtceu:sugar_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4DC9663501B377B1"
+					item: "minecraft:cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "1E1DBD08AB4E9F4D"
+					item: "kubejs:platinum_credit"
+					type: "item"
+				}
+				{
+					count: 1024
+					id: "66922FD5B097A619"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 5.0d
+			subtitle: "Finish the \"Chocolate `n Stuff\" Chapter"
+			tasks: [{
+				id: "3841F8FC4ED2CDED"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Sugar Master"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4CF5EFC09426841A"
+			tasks: [{
+				id: "7E4F1F56E364A995"
+				item: "nuclearcraft:foursmore"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "32A6DEACF523BF90"
+			tasks: [{
+				id: "6A3FCF34912B0A3D"
+				item: "nuclearcraft:moresmore"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			id: "227CF7EE02974644"
+			tasks: [{
+				id: "68F89D78006E21D9"
+				item: "nuclearcraft:smore"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			id: "1DCDB0C49632D878"
+			tasks: [{
+				id: "164A6A629462728D"
+				item: "create:honey_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "2844E1F04C52B4E9"
+			tasks: [{
+				id: "3BBE420CE44A5714"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "4F7DF28EDFBC1287"
+			tasks: [{
+				id: "1FB2942BBA209596"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "00436C185975CFCF"
+			tasks: [{
+				id: "24F624E1A75C69C7"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+	]
+	title: "Chocolate `n stuff"
+}

@@ -1,0 +1,207 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-02-17 11:21:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2026-02-17 11:21:47 +0100"
+    },
+    "done": false
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2026-02-17 11:22:04 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/item_storage_cell_1k_storage": {
+    "criteria": {
+      "has_item_cell_housing": "2026-02-17 11:23:44 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_item_cell_256k": {
+    "criteria": {
+      "has_item_cell_housing": "2026-02-17 11:23:44 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_item_cell_64k": {
+    "criteria": {
+      "has_item_cell_housing": "2026-02-17 11:23:44 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_item_cell_16k": {
+    "criteria": {
+      "has_item_cell_housing": "2026-02-17 11:23:44 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_item_cell_1k": {
+    "criteria": {
+      "has_item_cell_housing": "2026-02-17 11:23:44 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_item_cell_4k": {
+    "criteria": {
+      "has_item_cell_housing": "2026-02-17 11:23:44 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/item_storage_components_cell_16k_part": {
+    "criteria": {
+      "has_cell_component_4k": "2026-02-17 11:23:45 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/fluid_storage_cell_4k_storage": {
+    "criteria": {
+      "has_cell_component_4k": "2026-02-17 11:23:45 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/item_storage_cell_4k_storage": {
+    "criteria": {
+      "has_cell_component_4k": "2026-02-17 11:23:45 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/item_storage_cell_4k": {
+    "criteria": {
+      "has_cell_component_4k": "2026-02-17 11:23:45 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/fluid_storage_cell_4k": {
+    "criteria": {
+      "has_cell_component_4k": "2026-02-17 11:23:45 +0100"
+    },
+    "done": true
+  },
+  "ae2:main/storage_cell": {
+    "criteria": {
+      "c4k": "2026-02-17 11:30:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-02-17 11:30:18 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_4k": {
+    "criteria": {
+      "has_energy_cell": "2026-02-17 11:34:54 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_1k": {
+    "criteria": {
+      "has_energy_cell": "2026-02-17 11:34:54 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_256k": {
+    "criteria": {
+      "has_energy_cell": "2026-02-17 11:34:54 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_16k": {
+    "criteria": {
+      "has_energy_cell": "2026-02-17 11:34:54 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/quantum_ring": {
+    "criteria": {
+      "has_energy_cell": "2026-02-17 11:34:54 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/energy_dense_energy_cell": {
+    "criteria": {
+      "has_energy_cell": "2026-02-17 11:34:54 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_64k": {
+    "criteria": {
+      "has_energy_cell": "2026-02-17 11:34:54 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/network_color_applicator": {
+    "criteria": {
+      "has_energy_cell": "2026-02-17 11:34:54 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/item_storage_cell_256k": {
+    "criteria": {
+      "has_cell_component_256k": "2026-02-17 12:33:42 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/fluid_storage_cell_256k": {
+    "criteria": {
+      "has_cell_component_256k": "2026-02-17 12:33:42 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/fluid_storage_cell_256k_storage": {
+    "criteria": {
+      "has_cell_component_256k": "2026-02-17 12:33:42 +0100"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/item_storage_cell_256k_storage": {
+    "criteria": {
+      "has_cell_component_256k": "2026-02-17 12:33:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2026-02-17 12:46:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2026-02-17 12:46:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_roasted_cocoa_beans": {
+    "criteria": {
+      "has_ore": "2026-02-17 12:46:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nuclearcraft_roasted_cocoa_beans_smoked": {
+    "criteria": {
+      "has_ore": "2026-02-17 12:46:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-02-17 12:59:52 +0100"
+    },
+    "done": true
+  },
+  "nuclearcraft:recipes/misc/smore": {
+    "criteria": {
+      "item": "2026-02-17 13:06:53 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

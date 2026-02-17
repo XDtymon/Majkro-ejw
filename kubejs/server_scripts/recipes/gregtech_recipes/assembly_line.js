@@ -181,54 +181,51 @@ ServerEvents.recipes(event => {
             "gtceu:computer_casing",
             '2x gtceu:osmiridium_normal_item_pipe',
             "16x gtceu:fine_hssg_wire",
-            "ae2:item_cell_housing",
-            "ae2:cell_component_1k",
+            'ae2:item_storage_cell_1k',
             "gtceu:tungsten_steel_crate",
             "ae2:energy_cell"
         )
         .itemOutputs("ae2:portable_item_cell_1k")
         .duration(12000)
-        .EUt(16384)
+        .EUt(GTValues.VA[GTValues.IV])
         .stationResearch(b => b
             .researchStack("gtceu:tungsten_steel_crate")
             .CWUt(4, 512)
-            .EUt(8192)
+            .EUt(GTValues.VHA[GTValues.IV])
         )
     event.recipes.gtceu.assembly_line("ae2:portable_item_cell_4k")
         .itemInputs(
             "gtceu:computer_casing",
             '2x gtceu:osmiridium_normal_item_pipe',
             "64x gtceu:fine_hssg_wire",
-            "ae2:item_cell_housing",
-            "ae2:cell_component_4k",
+            'ae2:item_storage_cell_4k',
             "gtceu:tungsten_steel_crate",
             "ae2:energy_cell"
         )
         .itemOutputs("ae2:portable_item_cell_4k")
         .duration(18000)
-        .EUt(16384)
+        .EUt(GTValues.VA[GTValues.LuV])
         .stationResearch(b => b
             .researchStack("ae2:portable_item_cell_1k")
             .CWUt(8, 2048)
-            .EUt(8192)
+            .EUt(GTValues.VA[GTValues.IV])
         )
     event.recipes.gtceu.assembly_line("ae2:portable_item_cell_16k")
         .itemInputs(
             "gtceu:computer_casing",
             '4x gtceu:osmiridium_normal_item_pipe',
             "64x gtceu:fine_hssg_wire",
-            "ae2:item_cell_housing",
-            "ae2:cell_component_16k",
+            'ae2:item_storage_cell_16k',
             "gtceu:tungsten_steel_crate",
             "ae2:energy_cell"
         )
         .itemOutputs("ae2:portable_item_cell_16k")
         .duration(27000)
-        .EUt(16384)
+        .EUt(GTValues.VA[GTValues.ZPM])
         .stationResearch(b => b
             .researchStack("ae2:portable_item_cell_4k")
             .CWUt(12, 4096)
-            .EUt(16384)
+            .EUt(GTValues.VA[GTValues.LuV])
         )
     event.recipes.gtceu.assembly_line("ae2:portable_item_cell_64k")
         .itemInputs(
@@ -236,18 +233,17 @@ ServerEvents.recipes(event => {
             '12x gtceu:osmiridium_normal_item_pipe',
             "64x gtceu:fine_hssg_wire",
             "64x gtceu:fine_hssg_wire",
-            "ae2:item_cell_housing",
-            "ae2:cell_component_64k",
+            'ae2:item_storage_cell_64k',
             "gtceu:tungsten_steel_crate",
             "ae2:energy_cell"
         )
         .itemOutputs("ae2:portable_item_cell_64k")
         .duration(36000)
-        .EUt(16384)
+        .EUt(GTValues.VA[GTValues.UV])
         .stationResearch(b => b
             .researchStack("ae2:portable_item_cell_16k")
             .CWUt(32, 8192)
-            .EUt(16384)
+            .EUt(GTValues.VA[GTValues.ZPM])
         )
     event.recipes.gtceu.assembly_line("ae2:portable_item_cell_256k")
         .itemInputs(
@@ -257,18 +253,17 @@ ServerEvents.recipes(event => {
             "64x gtceu:fine_hssg_wire",
             "64x gtceu:fine_hssg_wire",
             "64x gtceu:fine_hssg_wire",
-            "ae2:item_cell_housing",
-            "ae2:cell_component_256k",
+            'ae2:item_storage_cell_256k',
             "gtceu:tungsten_steel_crate",
             "ae2:energy_cell"
         )
         .itemOutputs("ae2:portable_item_cell_256k")
         .duration(45000)
-        .EUt(16384)
+        .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b
             .researchStack("ae2:portable_item_cell_64k")
             .CWUt(48, 16384)
-            .EUt(16384)
+            .EUt(GTValues.VA[GTValues.UV])
         )
 
 
@@ -278,8 +273,7 @@ ServerEvents.recipes(event => {
             "gtceu:computer_casing",
             '2x gtceu:polybenzimidazole_normal_fluid_pipe',
             "16x gtceu:fine_hssg_wire",
-            "ae2:fluid_cell_housing",
-            "ae2:cell_component_1k",
+            'ae2:fluid_storage_cell_1k',
             "gtceu:tungsten_steel_crate",
             "ae2:energy_cell"
         )
@@ -296,36 +290,34 @@ ServerEvents.recipes(event => {
             "gtceu:computer_casing",
             '2x gtceu:polybenzimidazole_normal_fluid_pipe',
             "64x gtceu:fine_hssg_wire",
-            "ae2:fluid_cell_housing",
-            "ae2:cell_component_4k",
+            'ae2:fluid_storage_cell_4k',
             "gtceu:tungsten_steel_crate",
             "ae2:energy_cell"
         )
         .itemOutputs("ae2:portable_fluid_cell_4k")
         .duration(18000)
-        .EUt(16384)
+        .EUt(GTValues.VA[GTValues.IV])
         .stationResearch(b => b
             .researchStack("ae2:portable_fluid_cell_1k")
             .CWUt(8, 2048)
-            .EUt(8192)
+            .EUt(GTValues.VHA[GTValues.IV])
         )
     event.recipes.gtceu.assembly_line("ae2:portable_fluid_cell_16k")
         .itemInputs(
             "gtceu:computer_casing",
             '4x gtceu:polybenzimidazole_normal_fluid_pipe',
             "64x gtceu:fine_hssg_wire",
-            "ae2:fluid_cell_housing",
-            "ae2:cell_component_16k",
+            'ae2:fluid_storage_cell_16k',
             "gtceu:tungsten_steel_crate",
             "ae2:energy_cell"
         )
         .itemOutputs("ae2:portable_fluid_cell_16k")
         .duration(27000)
-        .EUt(16384)
+        .EUt(GTValues.VA[GTValues.LuV])
         .stationResearch(b => b
             .researchStack("ae2:portable_fluid_cell_4k")
             .CWUt(12, 4096)
-            .EUt(16384)
+            .EUt(GTValues.VA[GTValues.IV])
         )
     event.recipes.gtceu.assembly_line("ae2:portable_fluid_cell_64k")
         .itemInputs(
@@ -333,18 +325,17 @@ ServerEvents.recipes(event => {
             '12x gtceu:polybenzimidazole_normal_fluid_pipe',
             "64x gtceu:fine_hssg_wire",
             "64x gtceu:fine_hssg_wire",
-            "ae2:fluid_cell_housing",
-            "ae2:cell_component_64k",
+            'ae2:fluid_storage_cell_64k',
             "gtceu:tungsten_steel_crate",
             "ae2:energy_cell"
         )
         .itemOutputs("ae2:portable_fluid_cell_64k")
         .duration(36000)
-        .EUt(16384)
+        .EUt(GTValues.VA[GTValues.UV])
         .stationResearch(b => b
             .researchStack("ae2:portable_fluid_cell_16k")
             .CWUt(32, 8192)
-            .EUt(16384)
+            .EUt(GTValues.VA[GTValues.LuV])
         )
     event.recipes.gtceu.assembly_line("ae2:portable_fluid_cell_256k")
         .itemInputs(
@@ -354,18 +345,17 @@ ServerEvents.recipes(event => {
             "64x gtceu:fine_hssg_wire",
             "64x gtceu:fine_hssg_wire",
             "64x gtceu:fine_hssg_wire",
-            "ae2:fluid_cell_housing",
-            "ae2:cell_component_256k",
+            'ae2:fluid_storage_cell_256k',
             "gtceu:tungsten_steel_crate",
             "ae2:energy_cell"
         )
         .itemOutputs("ae2:portable_fluid_cell_256k")
         .duration(45000)
-        .EUt(16384)
+        .EUt(GTValues.VA[GTValues.UHV])
         .stationResearch(b => b
             .researchStack("ae2:portable_fluid_cell_64k")
             .CWUt(48, 16384)
-            .EUt(16384)
+            .EUt(GTValues.VA[GTValues.UV])
         )
 
 
