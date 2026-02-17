@@ -1,0 +1,1025 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: "283E7D00BD10A45A"
+	icon: "gtceu:lv_steam_turbine"
+	id: "20FA36B17C1279B3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6F6990833A2D3B32"]
+			id: "6F1A13A5775D0075"
+			subtitle: "Half-Life and Counter-Strike made by a copper valve, intresting"
+			tasks: [{
+				count: 4L
+				id: "06FD2DE60EED566C"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			title: "ValvE"
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F6990833A2D3B32"]
+			id: "77FBAF518047A4A7"
+			subtitle: "Parts made out of redbull cans"
+			tasks: [
+				{
+					count: 4L
+					id: "3D417BB35258FC68"
+					item: "gtceu:tin_rotor"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2AE1831196A12CFD"
+					item: "gtceu:tin_bolt"
+					type: "item"
+				}
+			]
+			title: "Tin Can Parts"
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"77FBAF518047A4A7"
+				"6F1A13A5775D0075"
+			]
+			id: "2289C39EAE2792BE"
+			subtitle: "Very helpful"
+			tasks: [{
+				id: "7FEE849D39516F90"
+				item: "create_factory_logistics:fluid_mechanism"
+				type: "item"
+			}]
+			title: "Copper Mechanism"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28DADBA753EF33CE"]
+			id: "1A25B9F28A68D02B"
+			subtitle: "Craft a &7LV&r machine hull"
+			tasks: [{
+				id: "6DC84083EAEF5FBF"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			title: "The &7LV&r age"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["725FD5E21B7F2B4E"]
+			id: "28DADBA753EF33CE"
+			subtitle: "Heavy metal"
+			tasks: [{
+				count: 64L
+				id: "575703BA4F8F5364"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "Steel Pack"
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6F6990833A2D3B32"]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "725FD5E21B7F2B4E"
+			subtitle: "Made for steel, not out of it"
+			tasks: [
+				{
+					id: "23A09954C413E748"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "11E1AAA8DFB4A001"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			title: "Steel Oven"
+			x: -12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7279A8BF9F04456F"]
+			description: ["For power transportation, I recommend nickel wires, make sure to not touch them!"]
+			id: "46955F6A60BBC928"
+			subtitle: "Bzzzzt"
+			tasks: [{
+				id: "300DA4519D5ED454"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "Your first electricity!"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1A25B9F28A68D02B"
+				"72EA519223ACFF8A"
+			]
+			id: "179DBF2601E15B18"
+			subtitle: "No more tool breaking!"
+			tasks: [{
+				id: "035C3AF5FEF41BD7"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			title: "Cheaper Wires"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1A25B9F28A68D02B"
+				"72EA519223ACFF8A"
+				"0E0AE6709374507C"
+			]
+			description: ["&7&oFinnaly a 1:1 ratio...&r&8&r"]
+			id: "033333A1E02064D7"
+			subtitle: "Craft a Bender"
+			tasks: [{
+				id: "41D85A33FFBAB38C"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			title: "Bending the matter"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1A25B9F28A68D02B"
+				"72EA519223ACFF8A"
+			]
+			icon: "gtceu:lv_arc_furnace"
+			id: "480A8C59138D4623"
+			tasks: [{
+				id: "397BFE6AC088F3EA"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			title: "Copper Annealer"
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1A25B9F28A68D02B"
+				"46955F6A60BBC928"
+			]
+			id: "246279AC3451A101"
+			subtitle: "Craft a polarizer to magnetize iron rods"
+			tasks: [{
+				id: "6069800CB26FCEAB"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			title: "Magnetizer"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"72EA519223ACFF8A"
+				"0E0AE6709374507C"
+				"2B59EC5DB9C303BC"
+			]
+			id: "4AE3105C6B687FDD"
+			subtitle: "LEGO builder...."
+			tasks: [{
+				id: "399E82B1BE035FAC"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			title: "Part Connector 3000"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["28DADBA753EF33CE"]
+			icon: {
+				Count: 1
+				id: "gtceu:steel_wrench"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+					}
+					GT.Tool: {
+						HarvestLevel: 3
+						MaxDamage: 511
+						ToolSpeed: 9.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "194BDD4720D71E03"
+			optional: true
+			shape: "octagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "44C43492157A2100"
+					item: {
+						Count: 1
+						id: "gtceu:steel_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								HarvestLevel: 3
+								MaxDamage: 511
+								ToolSpeed: 9.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4076008EE3EA6ECA"
+					item: {
+						Count: 1
+						id: "gtceu:steel_file"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								MaxDamage: 511
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "048A52FA4D1F4802"
+					item: {
+						Count: 1
+						id: "gtceu:steel_saw"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								MaxDamage: 511
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A01D5E48BBBBF7B"
+					item: {
+						Count: 1
+						id: "gtceu:steel_wire_cutter"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								HarvestLevel: 3
+								MaxDamage: 511
+								ToolSpeed: 9.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tool Upgrade"
+			x: -8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["28DADBA753EF33CE"]
+			id: "7279A8BF9F04456F"
+			subtitle: "Recommended for &8LV&r energy"
+			tasks: [{
+				id: "777DBF67B332A052"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Easier Hot Water"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["246279AC3451A101"]
+			id: "72EA519223ACFF8A"
+			size: 1.5d
+			subtitle: "Not able to ride and fly, YET"
+			tasks: [{
+				count: 12L
+				id: "5CB85679CD22B562"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			title: "Motors"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"28DADBA753EF33CE"
+				"72EA519223ACFF8A"
+			]
+			id: "0E0AE6709374507C"
+			subtitle: "Made to withstand immense pressure"
+			tasks: [{
+				count: 8L
+				id: "290105BDF5B9D7C1"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			title: "Electric Pushers"
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["72EA519223ACFF8A"]
+			id: "54C5BAA1FFF5A9A6"
+			subtitle: "But bad for item managment"
+			tasks: [{
+				id: "79DCCABF926309FB"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			title: "Better Conveyor"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"72EA519223ACFF8A"
+				"0E0AE6709374507C"
+				"28DADBA753EF33CE"
+			]
+			id: "2B59EC5DB9C303BC"
+			subtitle: "Can move things, I guess"
+			tasks: [{
+				count: 2L
+				id: "4D46E86919FDDEE2"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			title: "Factory Workers"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1A25B9F28A68D02B"
+				"2289C39EAE2792BE"
+				"72EA519223ACFF8A"
+			]
+			id: "48A19FAE5BA36D03"
+			subtitle: "Makes rods out of your ingots"
+			tasks: [{
+				id: "7A4A4A746C6C23AA"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			title: "Metal Peeler"
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6F1A13A5775D0075"
+				"2289C39EAE2792BE"
+				"28DADBA753EF33CE"
+			]
+			dependency_requirement: "one_completed"
+			description: ["As you play more into the pack, more &8GregTech&r content will be merged will the &6Create&r mod."]
+			id: "7C90CFC74382BC70"
+			subtitle: "More steam = better"
+			tasks: [{
+				id: "70F88B17572BFABF"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:steam_generator"
+					}
+				}
+				type: "item"
+			}]
+			title: "Create x GregTech drop"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2289C39EAE2792BE"]
+			icon: "gtceu:bronze_large_boiler"
+			id: "0FC410474A65B462"
+			optional: true
+			shape: "octagon"
+			size: 2.5d
+			subtitle: "Dang, thats called STEAM"
+			tasks: [
+				{
+					id: "2E2791519B993C19"
+					item: "gtceu:bronze_large_boiler"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "73845989233936DD"
+					item: { Count: 5, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "134855E469F98652"
+					item: { Count: 2, id: "gtceu:bronze_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "6CE07901ED4DA2C5"
+					item: { Count: 23, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "5977B42C1D248B98"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "1D0BD26B6DC996A1"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "2C5E1AA14B4CA765"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "0C9E6BF7B43D0E2A"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5BFA949D9DF9CDE1"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			title: "Overkill"
+			x: -3.75d
+			y: -1.25d
+		}
+		{
+			dependencies: [
+				"001A38E2F31E9DED"
+				"350CB2FEE35429A4"
+				"1E7B30D626278A1F"
+			]
+			id: "524FFDAE3792B36B"
+			subtitle: "Straight from china, for china"
+			tasks: [{
+				id: "1AB6B21D272124E2"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "a REAL factory worker"
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"3F525C6E24E7F81C"
+				"4C4C6CA0768B2464"
+				"503D722BCB277033"
+				"78C2AF82C3826E37"
+			]
+			id: "350CB2FEE35429A4"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Emitts in morse code"
+			tasks: [{
+				id: "30596E9146778EC4"
+				item: "gtceu:lv_emitter"
+				type: "item"
+			}]
+			title: "Emitts things"
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"3F525C6E24E7F81C"
+				"16CD44EC860BE72C"
+				"503D722BCB277033"
+			]
+			id: "1E7B30D626278A1F"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Beeep, Beeeeep"
+			tasks: [{
+				id: "18834A5FA27E1F10"
+				item: "gtceu:lv_sensor"
+				type: "item"
+			}]
+			title: "Recives things"
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"350CB2FEE35429A4"
+				"1E7B30D626278A1F"
+				"1A25B9F28A68D02B"
+				"15D2B7956A4AC2F1"
+			]
+			description: [
+				"If you didnt already, I would be you I`d rather check the crafting recipe, for "
+				"&9ME Energy Accepter&r and "
+				"&9ME Controller&r"
+				""
+				"&o&8&o.......&r&r&r"
+			]
+			icon: "create:package_frogport"
+			id: "37B3D350E1573046"
+			shape: "gear"
+			size: 5.0d
+			subtitle: "First &8(Good)&r item storage"
+			tasks: [
+				{
+					count: 4L
+					id: "21771D27F8F3D73C"
+					item: "create:stock_link"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "611BBCF4BD1B2BC0"
+					item: { Count: 4, id: "create:package_frogport" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "254DD8638CD09FDB"
+					item: { Count: 4, id: "create:packager" }
+					type: "item"
+				}
+				{
+					id: "22ED41937209E3F0"
+					item: "create:stock_ticker"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "242D06CCC7F9726D"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "04627B66B8D162F6"
+					item: { Count: 4, id: "create:chain_conveyor" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2AC6888779E5A09B"
+					item: { Count: 32, id: "minecraft:chain" }
+					type: "item"
+				}
+			]
+			title: "AE2 before AE2"
+			x: 7.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["179DBF2601E15B18"]
+			id: "4C4C6CA0768B2464"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Used for &8LV&r components"
+			tasks: [{
+				id: "3F04EE855CF926FE"
+				item: "gtceu:fine_cupronickel_wire"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"3E77E85018C1D67C"
+				"7A84F669458A0F01"
+			]
+			id: "620789EA3ADC27AC"
+			subtitle: "I mean second....."
+			tasks: [{
+				id: "7AFB76911A95133F"
+				item: "gtceu:manganese_phosphide_dust"
+				type: "item"
+			}]
+			title: "Your first alloy dust!"
+			x: 18.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["48A19FAE5BA36D03"]
+			id: "3F525C6E24E7F81C"
+			subtitle: "Used for &8LV&r components"
+			tasks: [{
+				id: "0E16DD2E529BB22D"
+				item: "gtceu:long_brass_rod"
+				type: "item"
+			}]
+			title: "Long Metal Stick"
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D36E4AD3707691D"]
+			id: "16CD44EC860BE72C"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Just extract da tin"
+			tasks: [{
+				id: "43C0CE80B6372C0A"
+				item: "gtceu:tin_bucket"
+				type: "item"
+			}]
+			title: "Liquid Tin"
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["72EA519223ACFF8A"]
+			id: "6FB337DB7EFF3E5E"
+			tasks: [{
+				id: "32C32FCEE1B290DD"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6FB337DB7EFF3E5E"
+				"1A25B9F28A68D02B"
+			]
+			id: "3D36E4AD3707691D"
+			subtitle: "Self-Explanatory"
+			tasks: [{
+				id: "0C700C398B12AC5C"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			title: "The Taking Machine 5000"
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"620789EA3ADC27AC"
+				"333E6E30E0F234F1"
+			]
+			id: "78C2AF82C3826E37"
+			subtitle: "Used for &8LV&r components"
+			tasks: [{
+				id: "49908476B1339AE6"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75684541D3039029"]
+			description: ["Can be also obtained in nether."]
+			id: "503D722BCB277033"
+			subtitle: "Used for &8LV&r components"
+			tasks: [{
+				id: "221F80BFB8883385"
+				item: "gtceu:quartzite_gem"
+				type: "item"
+			}]
+			title: "Overworld Quartz"
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1A25B9F28A68D02B"
+				"46955F6A60BBC928"
+				"2289C39EAE2792BE"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "333E6E30E0F234F1"
+			shape: "rsquare"
+			size: 2.5d
+			subtitle: "Multiblocks...."
+			tasks: [
+				{
+					id: "10687A89B5EF6A65"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6420AEC883E4936E"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+				{
+					id: "29580F6F37E092C1"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "0AC0AE993874F176"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "3C4D23233B5E6820"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "4D4126BE289ED38C"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "2DFB659F999DC695"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "50D53567E488E00D"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "740F98FF02C36CB4"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+			]
+			title: "Your Worst Nightmare"
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"77FBAF518047A4A7"
+				"1A25B9F28A68D02B"
+				"72EA519223ACFF8A"
+			]
+			id: "356C3F08FD3D2008"
+			subtitle: "Blendah"
+			tasks: [{
+				id: "11D76319E2016930"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			title: "Element Blender"
+			x: 14.0d
+			y: 10.5d
+		}
+		{
+			icon: "gtceu:raw_pyrolusite"
+			id: "7A84F669458A0F01"
+			subtitle: "Find a static manganese source"
+			tasks: [
+				{
+					count: 32L
+					id: "23E706D5AB906E61"
+					item: "gtceu:raw_pyrolusite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B00F34DB159840D"
+					title: "I already have that!"
+					type: "checkmark"
+				}
+			]
+			title: "Oh no.... more exploring...."
+			x: 19.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"51B9243289CA7E76"
+				"535AFC8E47D35E3B"
+			]
+			dependency_requirement: "one_completed"
+			id: "3E77E85018C1D67C"
+			subtitle: "Obtain Phosphorus Dust"
+			tasks: [{
+				id: "7168B614683C7EEC"
+				item: "gtceu:phosphorus_dust"
+				type: "item"
+			}]
+			title: "Also inside you"
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"1A25B9F28A68D02B"
+				"72EA519223ACFF8A"
+			]
+			id: "17899D9C95048831"
+			subtitle: "Needed for phosphorus"
+			tasks: [{
+				id: "608AB7CB548B8079"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			title: "Dust Separator"
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["75684541D3039029"]
+			description: [
+				"{@pagebreak}"
+				"(new page placeholder text)"
+			]
+			id: "2385A6FA986442CA"
+			subtitle: "Get some bones"
+			tasks: [{
+				count: 128L
+				id: "3B29D51BC9FE08F5"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			title: "Compressed Calcium"
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"2385A6FA986442CA"
+				"17899D9C95048831"
+			]
+			id: "51B9243289CA7E76"
+			ignore_reward_blocking: true
+			progression_mode: "flexible"
+			require_sequential_tasks: false
+			subtitle: "You`re made outta this"
+			tasks: [{
+				id: "575F6FF264E6476E"
+				item: "gtceu:calcium_phosphide_dust"
+				type: "item"
+			}]
+			title: "Shattered Bone"
+			x: 13.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"1A25B9F28A68D02B"
+				"72EA519223ACFF8A"
+			]
+			id: "535AFC8E47D35E3B"
+			subtitle: "Makes 2H and O from H2O"
+			tasks: [{
+				id: "1E1546175F74CBD8"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			title: "Hydrogen Collector"
+			x: 10.0d
+			y: 16.5d
+		}
+		{
+			id: "75684541D3039029"
+			subtitle: "Build a nether portal"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "571F9B72485B08AE"
+				title: "minecraft:nether"
+				type: "dimension"
+			}]
+			title: "Go to hell"
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3D36E4AD3707691D"]
+			id: "7BF6B8D166E82233"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Liquid wireing"
+			tasks: [{
+				id: "14FA750CB57AE337"
+				item: "gtceu:copper_bucket"
+				type: "item"
+			}]
+			title: "Liquid Copper"
+			x: 15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D36E4AD3707691D"]
+			id: "180D70C9987C5D6B"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Molten smelted sand"
+			tasks: [{
+				id: "03FE8DB035E8BAD1"
+				item: "gtceu:glass_bucket"
+				type: "item"
+			}]
+			title: "Liquid Glass"
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["480A8C59138D4623"]
+			id: "638D9A7CD01F6F40"
+			subtitle: "Oxidized copper, but the other way"
+			tasks: [{
+				id: "05B2ABAF2DFFC10B"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			title: "Annealed Copper"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["638D9A7CD01F6F40"]
+			id: "001A38E2F31E9DED"
+			shape: "square"
+			size: 1.5d
+			subtitle: "Well, \"\"\"oxidized\"\"\""
+			tasks: [{
+				id: "6EEAA291F46A3926"
+				item: "gtceu:annealed_copper_single_wire"
+				type: "item"
+			}]
+			title: "Oxidized Copper Wire"
+			x: 18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"7BF6B8D166E82233"
+				"180D70C9987C5D6B"
+				"350CB2FEE35429A4"
+				"1E7B30D626278A1F"
+				"1A25B9F28A68D02B"
+				"3F525C6E24E7F81C"
+				"001A38E2F31E9DED"
+			]
+			id: "15D2B7956A4AC2F1"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Hmmmmmm, looks like AE2"
+			tasks: [
+				{
+					count: 8L
+					id: "21B89086659E82C9"
+					item: "create:factory_gauge"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "66EC5EA13E7C6CA7"
+					item: "create_factory_logistics:factory_fluid_gauge"
+					type: "item"
+				}
+			]
+			title: "Factory Gauges"
+			x: 14.5d
+			y: -12.0d
+		}
+	]
+	title: "LV"
+}

@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "283E7D00BD10A45A", title: "Main Quests" }
+		{ id: "30D475EE7A2BF8AF", title: "Processing Lines" }
+		{ id: "7E77F1232EEDA634", title: "Side Quests" }
+		{ id: "2D9CC873C0B15A71", title: "Shop" }
+	]
+}

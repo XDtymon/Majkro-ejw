@@ -1,0 +1,17 @@
+ServerEvents.recipes(event => {
+    event.recipes.gtceu.electric_blast_furnace("nickel_cobaltite_ingot")
+        .itemInputs('gtceu:nickel_cobaltite_dust')
+        .itemOutputs("gtceu:nickel_cobaltite_ingot")
+        .duration(800)
+        .blastFurnaceTemp(307)
+        .EUt(120)
+    event.recipes.gtceu.electric_blast_furnace("cable_anchor")
+        .itemInputs('gtceu:copper_single_wire', '2x minecraft:iron_ingot')
+        .inputFluids(
+            Fluid.of('gtceu:soldering_alloy', 12)
+        )
+        .itemOutputs("4x ae2:cable_anchor")
+        .duration(600)
+        .blastFurnaceTemp(3600)
+        .EUt(2048)
+})

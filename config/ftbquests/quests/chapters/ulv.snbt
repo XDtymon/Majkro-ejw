@@ -1,0 +1,1443 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ulv"
+	group: "283E7D00BD10A45A"
+	icon: "create:steam_engine"
+	id: "455D182F52C82E63"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "gtceu:naquadah_alloy_pickaxe"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 5
+						MaxDamage: 3071
+						ToolSpeed: 44.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "104C387E676756D5"
+			rewards: [{
+				id: "7B17511387B84D88"
+				item: "kubejs:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "I hope you will enjoy, Create THE Factory!"
+			tasks: [{
+				id: "4021EB22A08022C1"
+				title: "yes"
+				type: "checkmark"
+			}]
+			title: "Your first quest"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F0481D4DDD152C9"]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "04EF72AEC0D8EC92"
+			rewards: [{
+				id: "7F4492D6B6B31BBE"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Gather some cobblestone!"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "05CB03B13F05A712"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "7F235904A86E0A89"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Minin`"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["04EF72AEC0D8EC92"]
+			id: "7593BC3D9843FC4A"
+			rewards: [{
+				id: "112F96964B769DEA"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Get andesite for future create factory startup!"
+			tasks: [{
+				count: 128L
+				id: "412528D24AD9A5C7"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "And Andesite too.."
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04EF72AEC0D8EC92"]
+			description: [
+				"You can find big &1GregTech&r ores, "
+				"by exploring and.. looking at ground."
+				"On ground you can find dusts that indicate "
+				"the &lHUGE&r ore beneath."
+				""
+				"I wish you good luck with exploring! :}"
+				""
+				"P.S. Check the shop for help."
+			]
+			icon: "minecraft:raw_iron"
+			id: "5F5C29DF28A37140"
+			rewards: [{
+				id: "20C7DF33A9E84574"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "I`d rather get a lot of these ones first"
+			tasks: [
+				{
+					count: 32L
+					id: "0240BC60ED80A283"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "386E7CA2F707F20D"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "42016F383B296920"
+					item: { Count: 16, id: "gtceu:raw_nickel" }
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "2AFFBF8929F6DBCA"
+					item: "gtceu:raw_tin"
+					type: "item"
+				}
+			]
+			title: "Useful Resources"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7593BC3D9843FC4A"
+				"2FE635AF45F8647A"
+			]
+			dependency_requirement: "one_completed"
+			id: "22A503C8E1DA3332"
+			rewards: [{
+				id: "7BD4EEA508DFA4B4"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "First, not last.."
+			tasks: [{
+				count: 16L
+				id: "10F652A93F65D78D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "First alloy!"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["22A503C8E1DA3332"]
+			id: "68BAA2563D89B10D"
+			rewards: [{
+				id: "54B6C00DFCC62654"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Again; first, not last..."
+			tasks: [{
+				count: 32L
+				id: "2BF503B7AFD5BAC4"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Your first component!"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["104C387E676756D5"]
+			id: "6E592E56F01A898E"
+			rewards: [{
+				id: "7CAF7AB82D5B5F19"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "You`ll need a lot of these."
+			tasks: [{
+				count: 64L
+				id: "359CFE212E8F87DD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)"
+					}
+				}
+				title: "Any #minecraft:planks"
+				type: "item"
+			}]
+			title: "Planks"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E592E56F01A898E"]
+			id: "6607CB00B10263D8"
+			rewards: [{
+				id: "792A40D66A1D00BC"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Craft some sticks"
+			tasks: [{
+				count: 16L
+				id: "2C7A6EDF0DF9F967"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			title: "Get a grip!"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6607CB00B10263D8"
+				"6E592E56F01A898E"
+			]
+			id: "2F0481D4DDD152C9"
+			rewards: [{
+				id: "2A4B5F8A18C1FAC2"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Craft a wooden pickaxe"
+			tasks: [{
+				id: "38D975519067A781"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ol` Miners Friend"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"68BAA2563D89B10D"
+				"6E592E56F01A898E"
+			]
+			id: "76454E09F7D5BBE5"
+			rewards: [{
+				id: "0B42C73945195CB0"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
+			subtitle: "Kinetic, not electrical yet"
+			tasks: [{
+				count: 2L
+				id: "2CD4CAAD4F3E8DA3"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Cheap Power"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"76454E09F7D5BBE5"
+				"6E592E56F01A898E"
+			]
+			id: "508DCC45EE6AA9FD"
+			optional: true
+			rewards: [{
+				id: "30F2155335393075"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Big circle go brrrrr"
+			tasks: [{
+				count: 4L
+				id: "4683DF319A0B19F0"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "More kinetic energy"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"334C0B7598AD63E0"
+				"2313F0C95EAADF9C"
+			]
+			id: "104F61CCD3B62AE3"
+			rewards: [{
+				id: "1297BF40333B157C"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Finnaly something to encase with"
+			tasks: [{
+				count: 4L
+				id: "3017260D672CEDA1"
+				item: "gtceu:bronze_machine_casing"
+				type: "item"
+			}]
+			title: "Machine Casing No.1"
+			x: -5.25d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"6607CB00B10263D8"
+				"6E592E56F01A898E"
+			]
+			id: "3C7DA49C79292738"
+			rewards: [{
+				id: "53F61A3AB851FC64"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Your gonna need `em."
+			tasks: [{
+				count: 2L
+				id: "29749D3678713436"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Small Excavator"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C7DA49C79292738"]
+			id: "430B9A65575E6DC3"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "48EC4EE0EFD17619"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Faster = Better"
+			tasks: [{
+				id: "1EAFCF7934E59A69"
+				item: {
+					Count: 1
+					id: "minecraft:stone_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Faster Excavator"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C7DA49C79292738"]
+			id: "5E445CD744D44AD5"
+			rewards: [{
+				id: "55A0829872EA8284"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Sir, please help me, im undah da watah :("
+			tasks: [{
+				count: 256L
+				id: "526B7C44ED2C21C8"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "Sea Minin`"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["35A4E057909CE585"]
+			id: "334C0B7598AD63E0"
+			rewards: [{
+				id: "4A2C40BB51769320"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Looks good for steampunk, hmmmm"
+			tasks: [{
+				id: "25E56B2FB5BF9C28"
+				item: "minecraft:bricks"
+				type: "item"
+			}]
+			title: "Nice building block"
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5F5C29DF28A37140"
+				"0B0110EC2D1AA702"
+			]
+			id: "1B91156612E2DB2E"
+			rewards: [{
+				id: "5C7E70D3977CC976"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Smash the ores, craft what you need"
+			tasks: [{
+				id: "7577E6CBA078231C"
+				item: "gtceu:bronze_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["04EF72AEC0D8EC92"]
+			id: "0CCD664462DEC690"
+			rewards: [{
+				id: "4600CAADFD86A6C3"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "hot hot hot hot"
+			tasks: [{
+				id: "4D983E69A877605D"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "The Furnance"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0CCD664462DEC690"]
+			id: "619E11E4C9A8ED86"
+			rewards: [{
+				id: "0106A9A241A1C62B"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Back to the good one"
+			tasks: [{
+				count: 16L
+				id: "74641EF0DB4CB008"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			title: "Original Stone"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F5C29DF28A37140"]
+			id: "2FE635AF45F8647A"
+			rewards: [{
+				id: "305D7B03BD0108A4"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "..."
+			tasks: [{
+				count: 16L
+				id: "658D78DE51E27A36"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Your First Ingot!"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0CCD664462DEC690"
+				"2FE635AF45F8647A"
+			]
+			id: "1E2C9B27FC05F25E"
+			rewards: [{
+				id: "45588434FBE80750"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Your gonna need more than one furnance."
+			tasks: [{
+				count: 8L
+				id: "4C180EC2859BBB6C"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "More carbon`y iron"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1E2C9B27FC05F25E"
+				"619E11E4C9A8ED86"
+			]
+			id: "0B0110EC2D1AA702"
+			rewards: [{
+				id: "449E54764FF2B7D4"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "mhmsmmsmsmsm - Iron Mortar 2k25"
+			tasks: [{
+				count: 2L
+				id: "0DD4F87CD903C8BE"
+				item: {
+					Count: 1
+					id: "gtceu:wrought_iron_mortar"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							MaxDamage: 383
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Not-Electrical Crusher"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5E445CD744D44AD5"
+				"0CCD664462DEC690"
+			]
+			id: "35A4E057909CE585"
+			rewards: [{
+				id: "42056040C256B3A6"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Your real life house is made out of this, maybe."
+			tasks: [{
+				id: "4CFC2D60C243BE1F"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			title: "Solid Clay"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1B91156612E2DB2E"
+				"0CCD664462DEC690"
+			]
+			id: "2313F0C95EAADF9C"
+			rewards: [{
+				id: "6C832634BE307561"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Tougher than the 1st one"
+			tasks: [{
+				id: "4B4BFF569AC9FC70"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "1Tin3Copper"
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6607CB00B10263D8"
+				"2FE635AF45F8647A"
+			]
+			id: "5952B4FC99B93A10"
+			rewards: [{
+				id: "6D3B3D11D78F659F"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Upgrade x2"
+			tasks: [{
+				id: "2BC21DC4FF82AF09"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Iron Mining Tool"
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"68BAA2563D89B10D"
+				"619E11E4C9A8ED86"
+				"6E592E56F01A898E"
+			]
+			description: ["Can also be used to produce rubber."]
+			id: "19B20EF80EAACC11"
+			optional: true
+			rewards: [{
+				id: "5837EDBD71D5B142"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "69BBC6248A2A1F4F"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Kinetic Semi-Grinder"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"334C0B7598AD63E0"
+				"2313F0C95EAADF9C"
+				"72F158785F75E825"
+				"503DF3BC2829205C"
+			]
+			description: [
+				"Connect it to your steam machines using &6bronze pipes&r"
+				"that can be modified by using a wrench."
+				"Feed it &4fuel&r and &3water&r."
+				"You can automate water by building a &9water pump&r."
+			]
+			icon: "gtceu:hp_steam_solid_boiler"
+			id: "63288EBEAF4B295D"
+			rewards: [{
+				id: "47E11A8B4F609A05"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Wonder where I heard that from, hmmm"
+			tasks: [{
+				id: "4C983CD0905B2531"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "The \"Steam Machine\""
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5952B4FC99B93A10"]
+			icon: "gtceu:raw_silver"
+			id: "1D9C63A326B2798D"
+			rewards: [{
+				id: "08C6EE77FAC8663B"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "More epic ones"
+			tasks: [
+				{
+					count: 16L
+					id: "12554DFC7EEDAC24"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "597DB9AB2D7030F0"
+					item: "gtceu:raw_silver"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7470806144FC277E"
+					item: "gtceu:raw_redstone"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "26A7E49A5CB56102"
+					item: "gtceu:raw_diamond"
+					type: "item"
+				}
+			]
+			title: "More Materials"
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2313F0C95EAADF9C"]
+			icon: {
+				Count: 1
+				id: "gtceu:bronze_wrench"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+					}
+					GT.Tool: {
+						HarvestLevel: 2
+						MaxDamage: 191
+						ToolSpeed: 7.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "72F158785F75E825"
+			rewards: [{
+				id: "4738734DFECD9C0E"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "It aint good, aint bad"
+			tasks: [
+				{
+					id: "70A5BCE890ABC05F"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								HarvestLevel: 2
+								MaxDamage: 191
+								ToolSpeed: 7.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7625580A48082E58"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_screwdriver"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								MaxDamage: 191
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0785882B656C4229"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_file"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								MaxDamage: 191
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2CF874F153C2C6"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_hammer"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								HarvestLevel: 2
+								MaxDamage: 191
+								ToolSpeed: 7.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48B1EC22E2494F6B"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_saw"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								MaxDamage: 191
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bronze Loadout"
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"1D9C63A326B2798D"
+				"4561BB3CBA1E5A7D"
+				"20C0E9B343935221"
+				"1B91156612E2DB2E"
+			]
+			id: "6A14C1D8A18BD776"
+			optional: true
+			rewards: [{
+				id: "1F2B91B9911EADB6"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Solar Panels spam go brrr"
+			tasks: [{
+				id: "57A9B22A8BC6A3CE"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			title: "Solar Powered \"Steam Machine\""
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"4C6879580D2DD409"
+				"7F6B60F3B349D398"
+			]
+			id: "4561BB3CBA1E5A7D"
+			rewards: [{
+				id: "38E7F66435884B1C"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Very useful to see something"
+			tasks: [{
+				id: "02F2633EF1A84593"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			title: "Transparent Sand"
+			x: 5.5d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"0CCD664462DEC690"
+				"20C0E9B343935221"
+				"104F61CCD3B62AE3"
+			]
+			id: "7F6B60F3B349D398"
+			rewards: [{
+				id: "5A5129559A8C80FD"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Fusion Smelter"
+			tasks: [{
+				id: "6E2EE36B803E8588"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			title: "Alloy Creator"
+			x: -3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"2FE635AF45F8647A"
+				"104F61CCD3B62AE3"
+				"20C0E9B343935221"
+			]
+			id: "463C9337D08C5D2C"
+			rewards: [{
+				id: "4568A8DB136AAA41"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Cheaper Plates, HELL YEAH"
+			tasks: [{
+				id: "54AEA4F496D7968E"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			title: "Mechanical Anvil"
+			x: -7.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"2313F0C95EAADF9C"
+				"72F158785F75E825"
+			]
+			id: "20C0E9B343935221"
+			rewards: [{
+				id: "51FE80484A1326BD"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "They move steam, apparently"
+			tasks: [{
+				id: "695CDA345F775B6A"
+				item: "gtceu:bronze_small_fluid_pipe"
+				type: "item"
+			}]
+			title: "Bronze Thingys"
+			x: -2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3C7DA49C79292738"]
+			icon: "minecraft:sand"
+			id: "35FB0BD230A5680C"
+			rewards: [{
+				id: "62D10CACA67E4CE7"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Again...."
+			tasks: [
+				{
+					count: 8L
+					id: "251670896B467912"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "1C18040753A0FA60"
+					item: { Count: 64, id: "minecraft:sand" }
+					type: "item"
+				}
+			]
+			title: "Minin` near the river"
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["35FB0BD230A5680C"]
+			id: "4C6879580D2DD409"
+			rewards: [{
+				id: "6CE624EFF9819BCB"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "I cant smelt sand? Eh..."
+			tasks: [{
+				id: "524032148841B691"
+				item: "gtceu:glass_dust"
+				type: "item"
+			}]
+			title: "Better Sand Dust"
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			id: "7ED3208872A49735"
+			rewards: [{
+				id: "7DFD20260157E063"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Takes, doesnt give it back"
+			tasks: [{
+				id: "21EE4CCF2C79F0BF"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			title: "The Taking Machine 3000"
+			x: -5.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"68BAA2563D89B10D"
+				"6E592E56F01A898E"
+			]
+			id: "3DCB10711A0C1A5F"
+			rewards: [{
+				id: "69F7E26708EEF12A"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "2017 Spinners were fire FOR REAL"
+			tasks: [{
+				count: 8L
+				id: "608BD6D1CAAF03F4"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "Spin Fast"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"349BF635F00575B1"
+				"72F158785F75E825"
+			]
+			id: "503DF3BC2829205C"
+			rewards: [{
+				id: "5788753D932B62B7"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Sucks water"
+			tasks: [
+				{
+					count: 10L
+					id: "1EBECC1EACE3FD73"
+					item: "gtceu:pump_deck"
+					type: "item"
+				}
+				{
+					id: "55C97253EA9375B8"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "40F0C1F8EE25C33C"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "56FBBCC3B03D4303"
+					item: "gtceu:treated_wood_frame"
+					type: "item"
+				}
+			]
+			title: "Water Sucker"
+			x: -9.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"35FB0BD230A5680C"
+				"5E445CD744D44AD5"
+				"0CCD664462DEC690"
+			]
+			id: "19685D8DE2FB0497"
+			rewards: [{
+				id: "0654A6A4E2807C40"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "To \"\"upgrade\"\" coal you need clay"
+			tasks: [{
+				id: "79421EECD4E03E70"
+				item: "gtceu:coke_oven_brick"
+				type: "item"
+			}]
+			title: "Coal Improver Ingredient"
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["19685D8DE2FB0497"]
+			icon: "gtceu:coke_oven"
+			id: "066A397151D8C6F0"
+			rewards: [{
+				id: "3939BDC1BFBE5A4B"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "I`d recommend some heat gloves"
+			tasks: [
+				{
+					id: "561415BD1C05A463"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "6A685C9691529801"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+			]
+			title: "Coal Improver"
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6E592E56F01A898E"
+				"066A397151D8C6F0"
+			]
+			id: "349BF635F00575B1"
+			rewards: [{
+				id: "1C2986DB3CF0E069"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Poor planks..."
+			tasks: [{
+				count: 16L
+				id: "10D5B674E504DEE7"
+				item: "gtceu:treated_wood_planks"
+				type: "item"
+			}]
+			title: "Treated Planks"
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			id: "408A90D4EA3A49D5"
+			rewards: [{
+				id: "716D99913D518055"
+				item: "kubejs:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Apart from a new wood type, you need it for industrialization"
+			tasks: [{
+				count: 8L
+				id: "032BE6AC7492D1EA"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			title: "Sticky Wood"
+			x: -11.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"408A90D4EA3A49D5"
+				"7ED3208872A49735"
+			]
+			id: "6BA4DBF4CF5624E2"
+			rewards: [{
+				id: "28F94BCD253ADD6A"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Get more than 16 of this material"
+			tasks: [{
+				count: 16L
+				id: "169169D2C3AD8259"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			title: "Rubbah"
+			x: -4.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["04EF72AEC0D8EC92"]
+			id: "7D19A205CF1D340C"
+			rewards: [{
+				id: "10D1B9BD58E24A02"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Just sulfur"
+			tasks: [{
+				count: 16L
+				id: "16E006E8A1087BD3"
+				item: "gtceu:raw_sulfur"
+				type: "item"
+			}]
+			title: "Yellow dust"
+			x: -11.0d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"6BA4DBF4CF5624E2"
+				"7F6B60F3B349D398"
+				"7D19A205CF1D340C"
+			]
+			id: "24247333F65BEC17"
+			rewards: [{
+				id: "1CE180C006861AEE"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Bar of the rubber"
+			tasks: [{
+				count: 4L
+				id: "788D3B7ED0F3A591"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			title: "Rubbah Bah"
+			x: -7.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["04EF72AEC0D8EC92"]
+			icon: "create:rose_quartz"
+			id: "770681554A3E596D"
+			rewards: [{
+				id: "597F3BD94CD2E811"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "As known as quartz"
+			tasks: [
+				{
+					count: 8L
+					id: "2DE6C8601A4129EB"
+					item: "gtceu:quartzite_gem"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "39EE8147CDAF8FE2"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+			]
+			title: "SiO2"
+			x: 0.0d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"1449E40D3F84D01E"
+				"68BAA2563D89B10D"
+			]
+			id: "7CED520D2A519FEF"
+			rewards: [{
+				id: "1A12A6519DBF2622"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Straight from china"
+			tasks: [{
+				id: "1228F425AEA282D5"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Fake Player"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5F5C29DF28A37140"
+				"0B0110EC2D1AA702"
+			]
+			id: "1449E40D3F84D01E"
+			rewards: [{
+				id: "5733AF3AA452A373"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Made for machines, not jewelery"
+			tasks: [{
+				id: "033943DEA5DA4BBF"
+				item: "gtceu:brass_dust"
+				type: "item"
+			}]
+			title: "Precious Material"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1E2C9B27FC05F25E"
+				"7C9A55386B82C6A7"
+				"72F158785F75E825"
+				"7CED520D2A519FEF"
+				"24247333F65BEC17"
+				"318FD9827C6BD22A"
+			]
+			id: "6F6990833A2D3B32"
+			rewards: [{
+				id: "1B0AE4415C93881E"
+				item: "kubejs:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 3.0d
+			subtitle: "Well its kinda a diode not a circuit..."
+			tasks: [{
+				id: "287DB9683B571E85"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			title: "Your First Circuit!"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2FE635AF45F8647A"
+				"770681554A3E596D"
+				"24247333F65BEC17"
+				"318FD9827C6BD22A"
+			]
+			description: ["Until you will get create item managment, I`d rather not automate it for now."]
+			id: "7C9A55386B82C6A7"
+			rewards: [{
+				count: 4
+				id: "44A7BD124B63BC8E"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "*blink blink*"
+			tasks: [{
+				count: 4L
+				id: "79BBD7465E942591"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Bad Diode"
+			x: 12.75d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"68BAA2563D89B10D"
+				"7CED520D2A519FEF"
+				"24247333F65BEC17"
+				"6F6990833A2D3B32"
+				"1E2C9B27FC05F25E"
+			]
+			description: [
+				"Steam Engines are &l&lMUCH&r more expensive than the deafult price, but get you a lot more kinetic energy per unit."
+				""
+				"Steam Engines, in this modpack are boosted at around &l&98X default value&r, and are an &8LV&r-&6HV&r source of energy."
+			]
+			icon: "create:steam_engine"
+			id: "6A409D66B8F5B836"
+			rewards: [{
+				id: "6ABAF1BA3D299060"
+				item: "kubejs:gold_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "It`s expensive"
+			tasks: [
+				{
+					count: 9L
+					id: "1CEDC6CE665F41F0"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "3E2B819CAB9D7DC9"
+					item: { Count: 27, id: "create:fluid_tank" }
+					type: "item"
+				}
+			]
+			title: "Big Kinetic \"Steam Machine\""
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4C6879580D2DD409"]
+			id: "318FD9827C6BD22A"
+			rewards: [{
+				id: "6E5454499FB713C4"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Just glass and glass"
+			tasks: [{
+				count: 4L
+				id: "62E18913327F1EA8"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			title: "Useful Glass Box"
+			x: 8.5d
+			y: -12.5d
+		}
+	]
+	title: "ULV"
+}

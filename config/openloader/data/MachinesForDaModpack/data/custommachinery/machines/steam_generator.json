@@ -1,0 +1,74 @@
+{
+  "name": "Kinetic Boiler",
+  "appearance": {
+    "running": {
+      "light": 15
+    }
+  },
+  "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 30,
+            "y": 0,
+            "type": "custommachinery:texture",
+            "height": 170,
+            "width": 180
+        },
+        {
+            "x": 40,
+            "y": 80,
+            "type": "custommachinery:player_inventory"
+        },
+        {
+            "x": 45,
+            "y": 10,
+            "width": 16,
+            "height": 64,
+            "type": "custommachinery:fluid",
+            "id": "input"
+        },
+        {
+            "x": 95,
+            "y": 10,
+            "width": 16,
+            "height": 64,
+            "type": "custommachinery:fluid",
+            "id": "output"
+        },
+        {
+            "x": 195,
+            "y": 58,
+            "type": "custommachinery:config"
+        }
+    ],
+    "components": [
+        {
+            "type": "custommachinery:contraption",
+            "config": {
+                "deafult": "none",
+                "back": "both"
+            },
+            "stress_impact": 12
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 10000,
+            "id": "input",
+            "maxInput": 250,
+            "filter": [
+                "minecraft:water"
+            ],
+            "whitelist": true
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 10000,
+            "id": "output",
+            "maxOutput": 250,
+            "filter": [
+                "gtceu:steam"
+            ],
+            "whitelist": true
+        }
+    ]
+}
