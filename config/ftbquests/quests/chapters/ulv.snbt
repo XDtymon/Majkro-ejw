@@ -166,8 +166,8 @@
 			dependency_requirement: "one_completed"
 			id: "22A503C8E1DA3332"
 			rewards: [{
-				id: "7BD4EEA508DFA4B4"
-				item: "kubejs:cupronickel_credit"
+				id: "5C626C3B5B0AD557"
+				item: "kubejs:silver_credit"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -1335,8 +1335,8 @@
 			]
 			id: "6F6990833A2D3B32"
 			rewards: [{
-				id: "1B0AE4415C93881E"
-				item: "kubejs:gold_credit"
+				id: "61DACD82F5760B26"
+				item: "kubejs:silver_credit"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -1395,8 +1395,9 @@
 			icon: "create:steam_engine"
 			id: "6A409D66B8F5B836"
 			rewards: [{
-				id: "6ABAF1BA3D299060"
-				item: "kubejs:gold_credit"
+				count: 2
+				id: "70ACB8845E8E3EBD"
+				item: "kubejs:silver_credit"
 				type: "item"
 			}]
 			shape: "gear"

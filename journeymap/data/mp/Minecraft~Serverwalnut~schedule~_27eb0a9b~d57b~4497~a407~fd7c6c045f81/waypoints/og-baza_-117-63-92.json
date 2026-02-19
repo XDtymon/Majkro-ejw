@@ -1,0 +1,22 @@
+{
+  "id": "og-baza_-117-63-92",
+  "name": "og baza",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--7860160-waypoint-icon.png",
+  "x": -117,
+  "y": 63,
+  "z": 92,
+  "r": 136,
+  "g": 16,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

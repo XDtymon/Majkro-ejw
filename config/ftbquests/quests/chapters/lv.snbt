@@ -11,6 +11,12 @@
 		{
 			dependencies: ["6F6990833A2D3B32"]
 			id: "6F1A13A5775D0075"
+			rewards: [{
+				count: 2
+				id: "3A17264E2F14AF7D"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Half-Life and Counter-Strike made by a copper valve, intresting"
 			tasks: [{
 				count: 4L
@@ -25,6 +31,12 @@
 		{
 			dependencies: ["6F6990833A2D3B32"]
 			id: "77FBAF518047A4A7"
+			rewards: [{
+				count: 2
+				id: "4016F8F05745BF2F"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Parts made out of redbull cans"
 			tasks: [
 				{
@@ -50,6 +62,12 @@
 				"6F1A13A5775D0075"
 			]
 			id: "2289C39EAE2792BE"
+			rewards: [{
+				id: "21B97AA3DC90B40C"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
+			size: 1.2d
 			subtitle: "Very helpful"
 			tasks: [{
 				id: "7FEE849D39516F90"
@@ -63,6 +81,13 @@
 		{
 			dependencies: ["28DADBA753EF33CE"]
 			id: "1A25B9F28A68D02B"
+			rewards: [{
+				id: "61C43A322184B0B3"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
 			subtitle: "Craft a &7LV&r machine hull"
 			tasks: [{
 				id: "6DC84083EAEF5FBF"
@@ -76,6 +101,12 @@
 		{
 			dependencies: ["725FD5E21B7F2B4E"]
 			id: "28DADBA753EF33CE"
+			rewards: [{
+				count: 2
+				id: "341777704A483824"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Heavy metal"
 			tasks: [{
 				count: 64L
@@ -91,6 +122,12 @@
 			dependencies: ["6F6990833A2D3B32"]
 			icon: "gtceu:primitive_blast_furnace"
 			id: "725FD5E21B7F2B4E"
+			rewards: [{
+				count: 2
+				id: "0C471C2C1F3D9EC0"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Made for steel, not out of it"
 			tasks: [
 				{
@@ -113,6 +150,12 @@
 			dependencies: ["7279A8BF9F04456F"]
 			description: ["For power transportation, I recommend nickel wires, make sure to not touch them!"]
 			id: "46955F6A60BBC928"
+			rewards: [{
+				count: 2
+				id: "38157B7413FAA625"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Bzzzzt"
 			tasks: [{
 				id: "300DA4519D5ED454"
@@ -129,6 +172,12 @@
 				"72EA519223ACFF8A"
 			]
 			id: "179DBF2601E15B18"
+			rewards: [{
+				count: 2
+				id: "7B82308E6C1C1F43"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "No more tool breaking!"
 			tasks: [{
 				id: "035C3AF5FEF41BD7"
@@ -164,6 +213,11 @@
 			]
 			icon: "gtceu:lv_arc_furnace"
 			id: "480A8C59138D4623"
+			rewards: [{
+				id: "57EDA45E3E9A278F"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "397BFE6AC088F3EA"
 				item: "gtceu:lv_arc_furnace"
@@ -179,6 +233,11 @@
 				"46955F6A60BBC928"
 			]
 			id: "246279AC3451A101"
+			rewards: [{
+				id: "4294BA489314C473"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Craft a polarizer to magnetize iron rods"
 			tasks: [{
 				id: "6069800CB26FCEAB"
@@ -196,6 +255,11 @@
 				"2B59EC5DB9C303BC"
 			]
 			id: "4AE3105C6B687FDD"
+			rewards: [{
+				id: "3E98CDB6F641C093"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "LEGO builder...."
 			tasks: [{
 				id: "399E82B1BE035FAC"
@@ -227,6 +291,12 @@
 			}
 			id: "194BDD4720D71E03"
 			optional: true
+			rewards: [{
+				count: 4
+				id: "53B135D2B608694F"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.0d
 			tasks: [
@@ -314,6 +384,12 @@
 		{
 			dependencies: ["28DADBA753EF33CE"]
 			id: "7279A8BF9F04456F"
+			rewards: [{
+				count: 2
+				id: "7BE04029905E0A6A"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Recommended for &8LV&r energy"
 			tasks: [{
 				id: "777DBF67B332A052"
@@ -327,6 +403,12 @@
 		{
 			dependencies: ["246279AC3451A101"]
 			id: "72EA519223ACFF8A"
+			rewards: [{
+				count: 4
+				id: "53A2C617C2AF0667"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			size: 1.5d
 			subtitle: "Not able to ride and fly, YET"
 			tasks: [{
@@ -345,6 +427,11 @@
 				"72EA519223ACFF8A"
 			]
 			id: "0E0AE6709374507C"
+			rewards: [{
+				id: "1630393E2645F16A"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Made to withstand immense pressure"
 			tasks: [{
 				count: 8L
@@ -359,6 +446,11 @@
 		{
 			dependencies: ["72EA519223ACFF8A"]
 			id: "54C5BAA1FFF5A9A6"
+			rewards: [{
+				id: "4C368EB738F92F0D"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "But bad for item managment"
 			tasks: [{
 				id: "79DCCABF926309FB"
@@ -376,6 +468,11 @@
 				"28DADBA753EF33CE"
 			]
 			id: "2B59EC5DB9C303BC"
+			rewards: [{
+				id: "5C0516BEDD305224"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Can move things, I guess"
 			tasks: [{
 				count: 2L
@@ -394,6 +491,12 @@
 				"72EA519223ACFF8A"
 			]
 			id: "48A19FAE5BA36D03"
+			rewards: [{
+				count: 2
+				id: "03E90DA7015FA237"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Makes rods out of your ingots"
 			tasks: [{
 				id: "7A4A4A746C6C23AA"
@@ -413,6 +516,13 @@
 			dependency_requirement: "one_completed"
 			description: ["As you play more into the pack, more &8GregTech&r content will be merged will the &6Create&r mod."]
 			id: "7C90CFC74382BC70"
+			optional: true
+			rewards: [{
+				id: "3E9A39E79570FE3B"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
+			size: 1.2d
 			subtitle: "More steam = better"
 			tasks: [{
 				id: "70F88B17572BFABF"
@@ -434,6 +544,12 @@
 			icon: "gtceu:bronze_large_boiler"
 			id: "0FC410474A65B462"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "41C95B57D7667B8E"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.5d
 			subtitle: "Dang, thats called STEAM"
@@ -498,6 +614,14 @@
 				"1E7B30D626278A1F"
 			]
 			id: "524FFDAE3792B36B"
+			optional: true
+			rewards: [{
+				id: "46258FC260EA460F"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
 			subtitle: "Straight from china, for china"
 			tasks: [{
 				id: "1AB6B21D272124E2"
@@ -516,6 +640,12 @@
 				"78C2AF82C3826E37"
 			]
 			id: "350CB2FEE35429A4"
+			rewards: [{
+				count: 4
+				id: "380FE2CDED8187D5"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			subtitle: "Emitts in morse code"
@@ -535,6 +665,12 @@
 				"503D722BCB277033"
 			]
 			id: "1E7B30D626278A1F"
+			rewards: [{
+				count: 4
+				id: "29D149E47421E811"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			subtitle: "Beeep, Beeeeep"
@@ -563,6 +699,12 @@
 			]
 			icon: "create:package_frogport"
 			id: "37B3D350E1573046"
+			rewards: [{
+				count: 4
+				id: "7C816FC7BC2229DC"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 5.0d
 			subtitle: "First &8(Good)&r item storage"
@@ -616,6 +758,12 @@
 		{
 			dependencies: ["179DBF2601E15B18"]
 			id: "4C4C6CA0768B2464"
+			rewards: [{
+				count: 2
+				id: "688BD563429EB3AB"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			subtitle: "Used for &8LV&r components"
@@ -631,6 +779,7 @@
 			dependencies: [
 				"3E77E85018C1D67C"
 				"7A84F669458A0F01"
+				"356C3F08FD3D2008"
 			]
 			id: "620789EA3ADC27AC"
 			subtitle: "I mean second....."
@@ -646,6 +795,11 @@
 		{
 			dependencies: ["48A19FAE5BA36D03"]
 			id: "3F525C6E24E7F81C"
+			rewards: [{
+				id: "1B60E49AF43A5F6A"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Used for &8LV&r components"
 			tasks: [{
 				id: "0E16DD2E529BB22D"
@@ -659,6 +813,11 @@
 		{
 			dependencies: ["3D36E4AD3707691D"]
 			id: "16CD44EC860BE72C"
+			rewards: [{
+				id: "6644BE578B8F7CB6"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			subtitle: "Just extract da tin"
@@ -674,6 +833,11 @@
 		{
 			dependencies: ["72EA519223ACFF8A"]
 			id: "6FB337DB7EFF3E5E"
+			rewards: [{
+				id: "16EDF3CA9E23E312"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "32C32FCEE1B290DD"
 				item: "gtceu:lv_electric_pump"
@@ -688,13 +852,18 @@
 				"1A25B9F28A68D02B"
 			]
 			id: "3D36E4AD3707691D"
+			rewards: [{
+				id: "19075478266137C4"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Self-Explanatory"
 			tasks: [{
 				id: "0C700C398B12AC5C"
 				item: "gtceu:lv_extractor"
 				type: "item"
 			}]
-			title: "The Taking Machine 5000"
+			title: "The Repourpose Machine v2"
 			x: 12.0d
 			y: 2.5d
 		}
@@ -717,6 +886,11 @@
 			dependencies: ["75684541D3039029"]
 			description: ["Can be also obtained in nether."]
 			id: "503D722BCB277033"
+			rewards: [{
+				id: "6FC85B0F49617BE9"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Used for &8LV&r components"
 			tasks: [{
 				id: "221F80BFB8883385"
@@ -871,6 +1045,12 @@
 				"(new page placeholder text)"
 			]
 			id: "2385A6FA986442CA"
+			rewards: [{
+				count: 2
+				id: "55C3C705FF47DF6E"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Get some bones"
 			tasks: [{
 				count: 128L
@@ -919,12 +1099,13 @@
 		}
 		{
 			id: "75684541D3039029"
-			subtitle: "Build a nether portal"
+			subtitle: "Build a nether portal, and collect some netherrack"
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "571F9B72485B08AE"
-				title: "minecraft:nether"
-				type: "dimension"
+				consume_items: true
+				count: 16L
+				id: "20F0758F3AF4DEBA"
+				item: { Count: 16, id: "minecraft:netherrack" }
+				type: "item"
 			}]
 			title: "Go to hell"
 			x: 3.0d
@@ -933,6 +1114,11 @@
 		{
 			dependencies: ["3D36E4AD3707691D"]
 			id: "7BF6B8D166E82233"
+			rewards: [{
+				id: "080C2E59049DC723"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			subtitle: "Liquid wireing"
@@ -948,6 +1134,11 @@
 		{
 			dependencies: ["3D36E4AD3707691D"]
 			id: "180D70C9987C5D6B"
+			rewards: [{
+				id: "1025C7A8BB49CA7E"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			subtitle: "Molten smelted sand"
@@ -963,6 +1154,11 @@
 		{
 			dependencies: ["480A8C59138D4623"]
 			id: "638D9A7CD01F6F40"
+			rewards: [{
+				id: "38E6F0A68EA933B0"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Oxidized copper, but the other way"
 			tasks: [{
 				id: "05B2ABAF2DFFC10B"
@@ -976,6 +1172,12 @@
 		{
 			dependencies: ["638D9A7CD01F6F40"]
 			id: "001A38E2F31E9DED"
+			rewards: [{
+				count: 2
+				id: "731716F43A322ADA"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			subtitle: "Well, \"\"\"oxidized\"\"\""
@@ -999,6 +1201,11 @@
 				"001A38E2F31E9DED"
 			]
 			id: "15D2B7956A4AC2F1"
+			rewards: [{
+				id: "674495D7E4C786C6"
+				item: "kubejs:silver_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "Hmmmmmm, looks like AE2"

@@ -8,134 +8,149 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "0226C8DBA82F8F0E"
-			tasks: [{
-				id: "4326EC288F1DD988"
-				item: "minecraft:raw_iron"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			id: "11B4039225FD70EC"
-			tasks: [{
-				id: "5110E56A940E39E9"
-				item: "minecraft:raw_copper"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			id: "0EC1D45336AD6913"
-			tasks: [{
-				id: "0396DF1FB63BFED5"
-				item: "minecraft:raw_gold"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			id: "3DB815C1E3C3CFDE"
-			tasks: [{
-				id: "3A90B1BCAAD8E740"
-				item: "gtceu:raw_silver"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			id: "45C07FC1CCA32098"
-			tasks: [{
-				id: "1CF8DC4B2F868FB7"
-				item: "gtceu:raw_nickel"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			id: "2D2B0E376007D176"
-			tasks: [{
-				id: "5C0675042D4FFBB5"
-				item: "gtceu:raw_cassiterite_sand"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.0d
-		}
-		{
-			id: "63B9275B1F4A87CA"
-			tasks: [{
-				id: "67E4A7433973A35E"
+			can_repeat: true
+			icon: "minecraft:cooked_beef"
+			id: "13922F277CA134B7"
+			rewards: [{
+				count: 8
+				id: "3612F5D58B694FB1"
 				item: "minecraft:cooked_beef"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.5d
-		}
-		{
-			id: "45C1FA613070E654"
 			tasks: [{
-				id: "6B729B04B3B92243"
-				item: "minecraft:sugar_cane"
+				consume_items: true
+				id: "42AC664D381C24CC"
+				item: "kubejs:silver_credit"
 				type: "item"
 			}]
+			title: "Food"
 			x: 0.0d
-			y: -6.5d
+			y: -5.0d
 		}
 		{
-			id: "1B2B53DC9D93101B"
-			tasks: [{
-				id: "483F32F2E108B718"
-				item: "minecraft:bamboo"
+			can_repeat: true
+			icon: "minecraft:iron_ingot"
+			id: "09036893F290F337"
+			rewards: [{
+				count: 16
+				id: "4275660BA3F6E4DC"
+				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.5d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "10DF7A5CEDE37582"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			title: "Iron Ingots"
+			x: 0.0d
+			y: -1.5d
 		}
 		{
-			id: "3B0A3FF84D365D56"
-			tasks: [{
-				id: "4274269E86CE8AAA"
-				item: "minecraft:carrot"
+			can_repeat: true
+			icon: "minecraft:copper_ingot"
+			id: "1F2AE7406EA4F55D"
+			rewards: [{
+				count: 12
+				id: "70AC42819A46440B"
+				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.5d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "06536834453FC78D"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			title: "Copper Ingot"
+			x: 1.5d
+			y: -1.5d
 		}
 		{
-			id: "30EED62E76330488"
-			tasks: [{
-				id: "361E02F24E290DF1"
-				item: "minecraft:potato"
+			can_repeat: true
+			icon: "minecraft:gold_ingot"
+			id: "6B0620F842AF1B74"
+			rewards: [{
+				count: 4
+				id: "101BBCAEE0E94D87"
+				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "273BB5B8E1E23699"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			title: "Gold Ingot"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:silver_ingot"
+			id: "1B15AF82B55B3993"
+			rewards: [{
+				count: 6
+				id: "2469B969B056B30F"
+				item: "gtceu:silver_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "150FA3636F6EB437"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			title: "Silver Ingot"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:nickel_ingot"
+			id: "6579AA6368BB34F4"
+			rewards: [{
+				count: 12
+				id: "5AC85001CAF621CE"
+				item: "gtceu:nickel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "10AF4A52BD8B9C9B"
+				item: "kubejs:cupronickel_credit"
+				type: "item"
+			}]
+			title: "Nickel Ingot"
 			x: 6.0d
-			y: -6.5d
+			y: -1.5d
 		}
 		{
-			id: "04FA661823CB7BBF"
-			tasks: [{
-				id: "4F8D5489CB8FDFE2"
-				item: "minecraft:beetroot_seeds"
+			can_repeat: true
+			icon: "gtceu:tin_ingot"
+			id: "7C4383C56ABBE242"
+			rewards: [{
+				count: 16
+				id: "2F1DF834D0884325"
+				item: "gtceu:tin_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -6.5d
-		}
-		{
-			id: "0A7D4CBE8ED8DC53"
 			tasks: [{
-				id: "499F23B90C8F05DF"
-				item: "minecraft:cocoa_beans"
+				consume_items: true
+				id: "01C30CEA8A2751D5"
+				item: "kubejs:cupronickel_credit"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.5d
+			title: "Tin Ingot"
+			x: 7.5d
+			y: -1.5d
 		}
 	]
 	title: "Buy"

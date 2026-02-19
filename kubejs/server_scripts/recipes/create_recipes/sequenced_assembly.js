@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
         [
             event.recipes.create.filling('create_factory_logistics:fluid_mechanism', ['create_factory_logistics:fluid_mechanism', Fluid.of('gtceu:soldering_alloy', 288)]),
             event.recipes.create.deploying('create_factory_logistics:fluid_mechanism', ['create_factory_logistics:fluid_mechanism', "gtceu:iron_gear"]),
-            event.recipes.create.deploying('create_factory_logistics:fluid_mechanism', ['create_factory_logistics:fluid_mechanism', "gtceu:brass_screw"]),
+            event.recipes.create.deploying('create_factory_logistics:fluid_mechanism', ['create_factory_logistics:fluid_mechanism', "gtceu:magnetic_nickel_cobaltite_screw"]),
             event.recipes.create.deploying('create_factory_logistics:fluid_mechanism', ['create_factory_logistics:fluid_mechanism', "#gtceu:diodes"]),
             event.recipes.create.deploying('create_factory_logistics:fluid_mechanism', ['create_factory_logistics:fluid_mechanism', "gtceu:zinc_foil"]),
             event.recipes.create.deploying('create_factory_logistics:fluid_mechanism', ['create_factory_logistics:fluid_mechanism', "gtceu:rubber_ring"])
@@ -149,7 +149,7 @@ ServerEvents.recipes(event => {
     const motor_materials = [
         //Plate               Foil          Nugget           Fine Wire              Rod         
         ['zinc',            'steel',     'wrought_iron',   'copper',            'magnetic_iron'],
-        ['aluminium',       'cupronickel',    'copper',         'annealed_copper',   'magnetic_nickel_cobaltite'],
+        ['aluminium',       'cupronickel',    'chromium',         'annealed_copper',   'magnetic_nickel_cobaltite'],
         ['stainless_steel', 'electrum',  'silver',         'gold',              'magnetic_steel'],
         ['titanium',       'manganese',   'niobium',        'tantalum',          'magnetic_neodymium'],
     ]

@@ -9,137 +9,165 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4EEDAAFDDE633A1D"]
 			id: "754DD097E676CEF4"
+			subtitle: "From expensive gems to aluminium sandwich foil"
 			tasks: [{
 				id: "634CAF0D2AB21CA7"
 				item: "gtceu:aluminium_dust"
 				type: "item"
 			}]
+			title: "AMULINIUM"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			id: "10C036768B8B9FCA"
+			subtitle: "Not yet purified"
 			tasks: [{
 				id: "59283514C4899308"
 				item: "gtceu:raw_sapphire"
 				type: "item"
 			}]
+			title: "Expensive Gem"
 			x: -11.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["10C036768B8B9FCA"]
 			id: "4EEDAAFDDE633A1D"
+			subtitle: "Sapphiah"
 			tasks: [{
 				id: "58B93D61FC473475"
 				item: "gtceu:sapphire_dust"
 				type: "item"
 			}]
+			title: "Wedding Ring Dust"
 			x: -8.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["754DD097E676CEF4"]
 			id: "262D94BAE0A0E2F4"
+			subtitle: "Assuming you have enough energy"
 			tasks: [{
 				id: "13DA0E6763FFF4DC"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
+			title: "AMELINIUM INGOT"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"3088492B2528372D"
+				"262D94BAE0A0E2F4"
+			]
 			id: "63685608A0B89FA5"
+			subtitle: "Not much, yet."
 			tasks: [{
 				id: "0286443F3903EE82"
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
+			title: "128V Machinery"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["4AE3105C6B687FDD"]
 			id: "3088492B2528372D"
+			subtitle: "Nothing to see here"
 			tasks: [{
 				id: "5219A81E55ED123C"
 				item: "gtceu:copper_single_cable"
 				type: "item"
 			}]
+			title: "Basic Cable"
 			x: -2.5d
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"3088492B2528372D"
+				"63685608A0B89FA5"
+			]
 			id: "4A12D6A7002CAD52"
+			subtitle: "AE???"
 			tasks: [{
 				id: "427812EE47DCB74A"
 				item: "gtceu:mv_polarizer"
 				type: "item"
 			}]
+			title: "Artificial ElectroMagneter"
 			x: -0.5d
 			y: 2.0d
 		}
 		{
-			id: "6F1A27217C6D8B3B"
-			tasks: [{
-				id: "77C6B2A71454C054"
-				item: "gtceu:nickel_dust"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 4.0d
-		}
-		{
-			id: "2ACCAD47CBE0D671"
-			tasks: [{
-				id: "00EA0C9540BCCF16"
-				item: "gtceu:cobalt_dust"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 5.5d
-		}
-		{
+			dependencies: ["356C3F08FD3D2008"]
 			id: "6D2B8A93DC07EE62"
+			subtitle: "One of many here..."
 			tasks: [{
 				id: "31E84A428859C168"
 				item: "gtceu:nickel_cobaltite_dust"
 				type: "item"
 			}]
+			title: "Magnetic Alloy"
 			x: -4.0d
 			y: 4.0d
 		}
 		{
+			dependencies: ["6D2B8A93DC07EE62"]
 			id: "23F788FF35F4A9BC"
+			subtitle: "Doesn`t attract anything, YET."
 			tasks: [{
 				id: "14087FF2EBBCAF4E"
 				item: "gtceu:nickel_cobaltite_ingot"
 				type: "item"
 			}]
+			title: "Magnetic Alloy Ingot"
 			x: -1.5d
 			y: 4.0d
 		}
 		{
+			dependencies: [
+				"4A12D6A7002CAD52"
+				"23F788FF35F4A9BC"
+			]
 			id: "755DC60014754A34"
+			subtitle: "Accually magnetic"
 			tasks: [{
 				id: "13A37176BCFE90B3"
 				item: "gtceu:magnetic_nickel_cobaltite_ingot"
 				type: "item"
 			}]
+			title: "Magnetic ^2 Alloy Ingot"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
+			dependencies: [
+				"755DC60014754A34"
+				"22BA9AE9CF1A1BD5"
+			]
 			id: "2C9DEA2AF29A0C94"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Still not rideable"
 			tasks: [{
 				id: "7E788AC065B94D64"
 				item: "gtceu:mv_electric_motor"
 				type: "item"
 			}]
+			title: "Better Motor"
 			x: 6.5d
 			y: 4.0d
 		}
 		{
 			id: "3978976007CF0F57"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "646FE7A78CF8C37C"
 				item: "create:precision_mechanism"
@@ -149,34 +177,42 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["3EFA9E2963AD00A7"]
 			id: "3402FAA98FF1EB53"
+			subtitle: "Electrolyse Coming up..."
 			tasks: [{
 				id: "115EB258F0349B5D"
 				item: "gtceu:mv_electrolyzer"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			title: "Material Dematerializator"
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			id: "3EFA9E2963AD00A7"
+			subtitle: "Oh god... Exploring"
 			tasks: [{
 				id: "2D492D509426BC76"
 				item: "gtceu:ruby_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.0d
+			title: "Another expensive gem"
+			x: 1.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["3402FAA98FF1EB53"]
 			id: "22BA9AE9CF1A1BD5"
+			subtitle: "Dont hold it in inventory for too long..."
 			tasks: [{
 				id: "32418BDA1A2FE5EB"
 				item: "gtceu:chromium_dust"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			title: "Chromium"
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			id: "76AE88822CDF66FC"

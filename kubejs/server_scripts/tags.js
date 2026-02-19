@@ -8,6 +8,7 @@ ServerEvents.tags('item', event => {
     event.remove('forge:hidden_from_recipe_viewers', 'create:shadow_steel')
     event.remove('forge:hidden_from_recipe_viewers', 'create:refined_radiance')
 
+    event.add('kubejs:solar_panels', 'kubejs:sterling_silver_solar_panel')
     
     const powers = [
         'lv',
@@ -19,10 +20,21 @@ ServerEvents.tags('item', event => {
         event.add('gtceu:dynamos', ('gtceu:' + powers[i] + '_energy_output_hatch'))
     }
 })
-ServerEvents.tags('fluid', event => {
+
+    function solarTag(id) {
+        ServerEvents.tags('item', event => {
+            event.add('kubejs:solar_panels', id)
+        })
+        ServerEvents.tags('block', event => {
+            event.add('kubejs:solar_panels', id)
+        })
+    }
+
 
     function selfTag(input) {
-        event.add(input, input)
+        ServerEvents.tags('fluid', event => {
+            event.add(input, input)
+        })
     }
 
     selfTag('gtceu:neodymium')
@@ -50,4 +62,5 @@ ServerEvents.tags('fluid', event => {
     selfTag('gtceu:plutonium_241')
     selfTag('gtceu:enriched_naquadah')
     selfTag('gtceu:chromium')
-})
+
+    solarTag('kubejs:sterling_silver_solar_panel')

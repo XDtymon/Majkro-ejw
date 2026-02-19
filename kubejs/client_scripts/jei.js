@@ -25,6 +25,3 @@ JEIEvents.hideItems(event => {
 
 
 })
-JEIEvents.addItems(event => {
-    event.remove('create:shadow_steel')
-})

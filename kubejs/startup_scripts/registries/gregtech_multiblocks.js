@@ -5,6 +5,7 @@ const $LargeTurbineMachine = Java.loadClass("com.gregtechceu.gtceu.common.machin
 const $WorkableElectricMultiblockMachine = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.WorkableElectricMultiblockMachine")
 const $ModifierFunction = Java.loadClass("com.gregtechceu.gtceu.api.recipe.modifier.ModifierFunction")
 const $SteamMulti = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.steam.SteamParallelMultiblockMachine');
+const $Tags = Java.loadClass("dev.latvian.mods.kubejs.util.Tags")
 
 
 function TemperatureModifier(machine, recipe) {
@@ -69,7 +70,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('greenhouse')
     .category('machine')
     .setMaxIOSize(4, 4, 2, 2)
-    .setSlotOverlay(true, false, GuiTextures.COMPRESSOR_OVERLAY)
+    .setSlotOverlay(false, false, GuiTextures.COMPRESSOR_OVERLAY)
     .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
     .setSound(GTSoundEntries.ARC)
     event.create('high_force_press')
@@ -84,6 +85,19 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     .setSlotOverlay(false, false, GuiTextures.COMPRESSOR_OVERLAY)
     .setProgressBar(GuiTextures.PROGRESS_BAR_FUSION, FillDirection.LEFT_TO_RIGHT)
     .setSound(GTSoundEntries.COMPUTATION) //
+    event.create('heat_fryer')
+    .category('machine')
+    .setMaxIOSize(8, 1, 1, 1)
+    .setSlotOverlay(false, false, GuiTextures.COMPRESSOR_OVERLAY)
+    .setProgressBar(GuiTextures.PROGRESS_BAR_FUSION, FillDirection.LEFT_TO_RIGHT)
+    .setSound(GTSoundEntries.BOILER) //
+    event.create('solar_generator')
+    .category('generator')
+    .setMaxIOSize(0, 0, 1, 0)
+    .setEUIO('out')
+    .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
+    .setProgressBar(GuiTextures.PROGRESS_BAR_GAS_COLLECTOR, FillDirection.LEFT_TO_RIGHT)
+    .setSound(GTSoundEntries.TURBINE)
 })
 
 
@@ -100,13 +114,22 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         `Temperature: ${data.getInt("RequiredTemp")}K` // 
 
     ))
+    GTRecipeTypes.get("heat_fryer").addDataInfo((data) => 
+    (
+        `Temperature: ${data.getInt("RequiredTemp")}K` // 
 
+    ))
+    GTRecipeTypes.get("solar_generator").addDataInfo((data) => 
+    (
+        `Temperature: ${data.getInt("RequiredTemp")}K` // 
+
+    ))
 
     event.create('high_temperature_turbine', 'multiblock')
-        .machine((holder) => new $LargeTurbineMachine(holder, GTValues.LuV))
         .generator(true)
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('high_temperature_turbine')
+        .machine((holder) => new $LargeTurbineMachine(holder, GTValues.LuV))
         .recipeModifiers(
             [
                 GTRecipeModifiers.OC_NON_PERFECT_SUBTICK, 
@@ -310,6 +333,39 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build()
         )
         .workableCasingModel('gtceu:block/casings/cleanroom/filter_casing','gtceu:block/multiblock/fusion_reactor')
+
+    event.create('heat_fryer', 'multiblock')
+        .rotationState(RotationState.Y_AXIS)
+        .recipeType('heat_fryer')
+        .recipeModifiers([(machine, recipe) => TemperatureModifier(machine, recipe)])
+        .machine((holder) => new $CoilWorkableElectricMultiblockMachine(holder))
+        .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
+        .pattern(definition => FactoryBlockPattern
+            .start()
+
+            .aisle("$$$", "FGF", "FGF", "###")
+            .aisle("$M$", "GAG", "GAG", "#E#")
+            .aisle("$$$", "FGF", "FGF", "###")
+            
+
+            .where('M', Predicates.controller(Predicates.blocks(definition.get())))
+            .where('$',Predicates.blocks('gtceu:clean_machine_casing')
+                .or(Predicates.ability(PartAbility.MAINTENANCE).setExactLimit(1))
+                .or(Predicates.ability(PartAbility.EXPORT_ITEMS).setExactLimit(1))
+                .or(Predicates.ability(PartAbility.IMPORT_ITEMS).setExactLimit(1))
+                .or(Predicates.ability(PartAbility.IMPORT_FLUIDS).setExactLimit(1))
+            )
+            .where('A', Predicates.blocks('minecraft:air'))
+            .where('#', Predicates.blocks('gtceu:clean_machine_casing'))
+            .where('F', Predicates.heatingCoils())
+            .where('G', Predicates.blocks('gtceu:cleanroom_glass'))
+            .where('E', Predicates.ability(PartAbility.INPUT_ENERGY).setExactLimit(1))
+
+            .build()
+        )
+        .workableCasingModel('gtceu:block/casings/solid/machine_casing_clean_stainless_steel','gtceu:block/multiblock/cleanroom')
+
+        
 })
 
 
@@ -368,4 +424,39 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     )
 })
 
+
+
+
+
+    event.create('solar_generator', 'multiblock')
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeType('solar_generator')
+        .machine((holder) => new $LargeTurbineMachine(holder, GTValues.MV))
+        .recipeModifiers(
+            [
+                GTRecipeModifiers.OC_NON_PERFECT_SUBTICK, 
+                GTRecipeModifiers.BATCH_MODE, 
+                (machine, recipe) => $LargeTurbineMachine.recipeModifier(machine, recipe)
+            ]
+        )
+        .appearanceBlock(GTBlocks.CASING_INVAR_HEATPROOF)
+        .pattern(definition => FactoryBlockPattern
+            .start()
+
+            .aisle("CCC", "$I$", "CCC", "###")
+            .aisle("CEC", "$R$", "CAC", "###")
+            .aisle("CCC", "$M$", "CCC", "###")
+
+            .where('M', Predicates.controller(Predicates.blocks(definition.get())))
+            .where('$', Predicates.blocks('gtceu:heatproof_machine_casing'))
+            .where('A', Predicates.blocks('minecraft:air'))
+            .where('#', Predicates.blockTag($Tags.block('kubejs:solar_panels')))
+            .where('I', Predicates.ability(PartAbility.IMPORT_FLUIDS).setExactLimit(1))
+            .where('C', Predicates.heatingCoils())
+            .where('R', Predicates.ability(PartAbility.ROTOR_HOLDER).setExactLimit(1))
+            .where('E', Predicates.ability(PartAbility.OUTPUT_ENERGY).setExactLimit(1))
+
+            .build()
+        )
+        .workableCasingModel('gtceu:block/casings/solid/machine_casing_heatproof','gtceu:block/multiblock/pyrolyse_oven')
 */

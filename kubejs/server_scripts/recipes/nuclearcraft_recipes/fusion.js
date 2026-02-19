@@ -145,7 +145,7 @@ ServerEvents.recipes(event => {
             ["gtceu:duranium", 2],
             ["gtceu:duranium", 2]
         ],
-        6,
+        16,
         495700,
         230710,
         3
@@ -161,8 +161,8 @@ ServerEvents.recipes(event => {
             ["gtceu:europium", 1],
             ["gtceu:europium", 1]
         ],
-        3,
-        92700,
+        14,
+        35700,
         145690,
         1
     ) 

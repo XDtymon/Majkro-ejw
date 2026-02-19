@@ -9,6 +9,11 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"53457D7AA7E0E3AD"
+				"288E45404BAA4BD3"
+				"4CF5EFC09426841A"
+			]
 			id: "0D48CE3637A0C13C"
 			shape: "rsquare"
 			size: 2.0d
@@ -42,12 +47,6 @@
 					count: 8L
 					id: "2A7E12C9C447FE56"
 					item: "create:honeyed_apple"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "253850E52D011F6C"
-					item: "create:bar_of_chocolate"
 					type: "item"
 				}
 			]
@@ -99,34 +98,57 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"32A6DEACF523BF90"
+				"1DCDB0C49632D878"
+				"5B40A74EA61637D3"
+				"1DCDB0C49632D878"
+				"46830E581BE9C58A"
+				"25F2F81906FADD6A"
+			]
+			hide_until_deps_visible: false
 			id: "4CF5EFC09426841A"
 			tasks: [{
 				id: "7E4F1F56E364A995"
 				item: "nuclearcraft:foursmore"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.5d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
+			dependencies: [
+				"0A6A43F571A4BADB"
+				"227CF7EE02974644"
+				"46830E581BE9C58A"
+				"4B8F9C71B0251E83"
+				"5B40A74EA61637D3"
+				"25F2F81906FADD6A"
+			]
 			id: "32A6DEACF523BF90"
 			tasks: [{
 				id: "6A3FCF34912B0A3D"
 				item: "nuclearcraft:moresmore"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -2.5d
+			x: -12.0d
+			y: -1.5d
 		}
 		{
+			dependencies: [
+				"0A6A43F571A4BADB"
+				"11B208BF4456AF9A"
+				"5B40A74EA61637D3"
+				"25F2F81906FADD6A"
+			]
 			id: "227CF7EE02974644"
 			tasks: [{
 				id: "68F89D78006E21D9"
 				item: "nuclearcraft:smore"
 				type: "item"
 			}]
-			x: -15.0d
-			y: -2.5d
+			x: -16.0d
+			y: -1.5d
 		}
 		{
 			id: "1DCDB0C49632D878"
@@ -135,7 +157,7 @@
 				item: "create:honey_bucket"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 6.0d
 		}
 		{
@@ -146,17 +168,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.0d
-		}
-		{
-			id: "4F7DF28EDFBC1287"
-			tasks: [{
-				id: "1FB2942BBA209596"
-				item: "minecraft:cocoa_beans"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			id: "00436C185975CFCF"
@@ -165,8 +177,253 @@
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4B8F9C71B0251E83"
+				"70A46B466A936DED"
+			]
+			id: "201A546783F48DEE"
+			tasks: [{
+				id: "0562752E26DC29CC"
+				item: "nuclearcraft:unsweetened_chocolate"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"53D50BC4B92661E7"
+				"201A546783F48DEE"
+			]
+			id: "73469F4B68E46F1F"
+			tasks: [{
+				id: "62C72808114D5D02"
+				item: "nuclearcraft:dark_chocolate"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"73469F4B68E46F1F"
+				"2844E1F04C52B4E9"
+			]
+			id: "0A6A43F571A4BADB"
+			tasks: [{
+				id: "540F284AF27FBB28"
+				item: "nuclearcraft:milk_chocolate"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			id: "4B8F9C71B0251E83"
+			tasks: [{
+				id: "27638DF5ADDF6B72"
+				item: "nuclearcraft:cocoa_butter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "7D5712E632B3069A"
+			tasks: [{
+				id: "3E60A4A414C2D5A1"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D5712E632B3069A"]
+			id: "70A46B466A936DED"
+			tasks: [{
+				id: "7B1DB4D6D43AAE3C"
+				item: "nuclearcraft:chocolate_liquor_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "53D50BC4B92661E7"
+			tasks: [{
+				id: "341B1FB399607C20"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["53D50BC4B92661E7"]
+			id: "46830E581BE9C58A"
+			tasks: [{
+				id: "1EDFDDC5DBAECB43"
+				item: "gtceu:sugar_gem"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["661B21F082E7BEC9"]
+			id: "11B208BF4456AF9A"
+			tasks: [{
+				id: "7705467DFE5A90C9"
+				item: "nuclearcraft:graham_cracker"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00436C185975CFCF"]
+			id: "661B21F082E7BEC9"
+			tasks: [{
+				id: "4AFB9F8A9FDFEF50"
+				item: "gtceu:wheat_dust"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"36446306C0C67B5B"
+				"4B8F9C71B0251E83"
+			]
+			id: "5B40A74EA61637D3"
+			tasks: [{
+				id: "4DF963974B283908"
+				item: "nuclearcraft:marshmallow"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			id: "36446306C0C67B5B"
+			tasks: [{
+				id: "7CC48D2AB63894B5"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			id: "0CFD708157E72037"
+			tasks: [{
+				id: "2BD723A0AA496D39"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "374CCA0C2E634FB4"
+			tasks: [{
+				id: "689ADE61627864A9"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"374CCA0C2E634FB4"
+				"0CFD708157E72037"
+				"2844E1F04C52B4E9"
+				"1DCDB0C49632D878"
+				"46830E581BE9C58A"
+			]
+			id: "53457D7AA7E0E3AD"
+			tasks: [{
+				id: "5C04D490C998825B"
+				item: "kubejs:sweetener_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			id: "25F2F81906FADD6A"
+			tasks: [{
+				id: "4C707687BCA9AB00"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			id: "288E45404BAA4BD3"
+			tasks: [{
+				id: "586393369E1971CC"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0CFD708157E72037"
+				"73469F4B68E46F1F"
+			]
+			id: "08FA62CACF875D48"
+			tasks: [{
+				id: "073D241EBE53760E"
+				item: "create:chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"00436C185975CFCF"
+				"2844E1F04C52B4E9"
+			]
+			id: "7666566100EF547C"
+			tasks: [{
+				id: "2B8413A6B175AF9F"
+				item: "create:sweet_roll"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "486C4F6CD7FCB8A2"
+			tasks: [{
+				id: "622A4DD900530189"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "6EA96431A3E6A767"
+			tasks: [{
+				id: "48073D249007E892"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
 		}
 	]
 	title: "Chocolate `n stuff"

@@ -1,145 +1,321 @@
-[14:13:49] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[14:13:49] [INIT] Loaded plugins:
-[14:13:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[14:13:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[14:13:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[14:13:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[14:13:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[14:13:49] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
-[14:13:49] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[14:13:49] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[14:13:49] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[14:13:49] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[14:13:49] [INFO] Loaded script server_scripts:fluid_veins.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/create_recipes/sequenced_assembly.js in 0.001 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/create_recipes.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/custom_recipes.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/alloy_blast_smelter.js in 0.001 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/assembler.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/assembly_line.js in 0.001 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/autoclave.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/canner.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/centrifuge.js in 0.001 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/circuit_assembler.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/ebf.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/electrolyzer.js in 0.001 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/extractor.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/laser_engraver.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mixer.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mods/nuclearcraft/smore.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mods/nuclearcraft.js in 0.003 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/coils.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/arc_polarization_factory.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/critical_state_quantum_entangler.js in 0.001 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/greenhouse.js in 0.001 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/high_force_press.js in 0.002 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/high_temperature_turbine.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/plasma_turbine.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/polarizer.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/nuclearcraft_recipes/fusion.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/recipe_deleter_4000.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:recipes/shaped_recipes.js in 0.001 s
-[14:13:49] [INFO] Loaded script server_scripts:tags.js in 0.0 s
-[14:13:49] [INFO] Loaded script server_scripts:veins.js in 0.001 s
-[14:13:49] [INFO] Loaded 31/31 KubeJS server scripts in 0.027 s with 0 errors and 0 warnings
-[14:13:49] [INFO] Scripts loaded
-[14:13:49] [INFO] Initializing recipe event...
-[14:13:49] [INFO] [minecraft:fluid] Found 1040 tags, added 22 objects, removed 0 objects
-[14:13:49] [INFO] [minecraft:block] Found 939 tags, added 6 objects, removed 0 objects
-[14:13:50] [INFO] [minecraft:item] Found 4765 tags, added 7 objects, removed 2 objects
-[14:13:50] [INFO] Processing recipes...
-[14:13:50] [WARN] Failed to parse recipe 'nuclearcraft:toroidal_accelerator_controller_tier_1[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:13:51] [WARN] Failed to parse recipe 'nuclearcraft:patchouli_book[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[14:13:51] [INFO] Found 45182 recipes in 1.057 s
-[14:13:51] [WARN] recipes/gregtech_recipes/ebf.js#24: Trying to add more outputs than RecipeType can support, id: gtceu:electric_blast_furnace/chromium_from_c2o3, Max itemOutputs: 3
-[14:13:51] [WARN] recipes/gregtech_recipes/ebf.js#32: Trying to add more outputs than RecipeType can support, id: gtceu:electric_blast_furnace/chromium_from_ruby, Max itemOutputs: 3
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_thorium_tbu_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_thorium_tbu_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_thorium_tbu_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_hea_242_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_hea_242_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_hea_242_ni had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_lea_242_ox had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_lea_242_za had been registered!
-[14:13:51] [INFO] recipes/gregtech_recipes/mods/nuclearcraft.js#660: Fuel nuclearcraft:fuel_americium_lea_242_ni had been registered!
-[14:13:51] [ERROR] ! Error in 'ServerEvents.recipes': CWUt can't be explicitly set to 0, id: null
-[14:13:51] [INFO] Posted recipe events in 42.96 ms
-[14:13:51] [WARN] Error parsing recipe nuclearcraft:patchouli_book[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"tag":"forge:ingots/uranium"},{"item":"minecraft:book"}],"result":{"item":"patchouli:guide_book","nbt":{"patchouli:book":"nuclearcraft:nuclearcraft"}},"show_notification":true}: Unknown item 'patchouli:guide_book'
-[14:13:51] [WARN] Error parsing recipe nuclearcraft:toroidal_accelerator_controller_tier_1[minecraft:crafting_shaped]: {"category":"misc","group":"nuclearcraft_toroidal_accelerator_tier1","type":"minecraft:crafting_shaped","key":{"B":{"item":"nuclearcraft:toroidal_accelerator_controller","nbt":"{}"},"I":{"item":"nuclearcraft:upgrade_energy"}},"pattern":["III","IBI","III"],"result":{"item":"nuclearcraft:toroidal_accelerator_controller","nbt":"{upgrade_tier:1}"},"show_notification":true}: Unknown item 'nuclearcraft:toroidal_accelerator_controller'
-[14:13:51] [WARN] Error parsing recipe create:kjs/azzgsyc19kgf57oce2jdi5j54[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredient":{"item":"gtceu:quantum_eye"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:fine_palladium_wire"}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:uranium_triplatinum_double_wire"}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:titanium_nugget"}]}],"transitionalItem":{"item":"gtceu:ev_emitter","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
-[14:13:52] [WARN] Error parsing recipe create:kjs/9h9131be00f1lmy92g4iqhp1u[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredient":{"item":"gtceu:hv_machine_hull"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:filling","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"gtceu:polytetrafluoroethylene","nbt":{},"amount":72}]},{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"item":"minecraft:ender_eye"}]},{"type":"create:pressing","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"}]}],"transitionalItem":{"item":"gtceu:hv_sensor","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
-[14:13:52] [ERROR] ! Duplicate added recipe for id gtceu:extractor/cocoa_beans!
-Recipe A: {type=gtceu:machine, in=[], out='minecraft:air'}
-Recipe B: {type=gtceu:machine, in=[], out='minecraft:air'}
-Using last one encountered.
-[14:13:52] [WARN] Error parsing recipe create:kjs/8m78zx29f1sz3e6dpy2j4cb57[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredient":{"item":"gtceu:ev_machine_hull"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:filling","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"gtceu:polytetrafluoroethylene","nbt":{},"amount":72}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"item":"gtceu:quantum_eye"}]},{"type":"create:pressing","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"}]}],"transitionalItem":{"item":"gtceu:ev_sensor","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
-[14:13:52] [INFO] Added 302 recipes, removed 0 recipes, modified 0 recipes, with 5 failed recipes in 862.3 ms
-[14:13:52] [INFO] Collecting Custom Machine upgrades from JS scripts.
-[14:13:52] [INFO] Successfully added 0 Custom Machine upgrades
-[14:13:54] [INFO] Server resource reload complete!
+[19:24:28] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[19:24:28] [INIT] Loaded plugins:
+[19:24:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[19:24:28] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[19:24:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[19:24:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[19:24:28] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[19:24:28] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[19:24:28] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[19:24:28] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[19:24:28] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[19:24:28] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[19:24:28] [INFO] Loaded script server_scripts:fluid_veins.js in 0.001 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/create_recipes/sequenced_assembly.js in 0.004 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/create_recipes.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/custom_recipes.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/alloy_blast_smelter.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/assembler.js in 0.002 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/assembly_line.js in 0.001 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/autoclave.js in 0.001 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/canner.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/centrifuge.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/circuit_assembler.js in 0.001 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/ebf.js in 0.001 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/electrolyzer.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/extractor.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/laser_engraver.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mixer.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mods/create/sweets.js in 0.001 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mods/nuclearcraft/main.js in 0.003 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/mods/nuclearcraft/smore.js in 0.001 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/coils.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/arc_polarization_factory.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/critical_state_quantum_entangler.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/greenhouse.js in 0.001 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/high_force_press.js in 0.003 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/high_temperature_turbine.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/custom/solar_generator.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/multiblocks/plasma_turbine.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/gregtech_recipes/polarizer.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/nuclearcraft_recipes/fusion.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/recipe_deleter_4000.js in 0.001 s
+[19:24:28] [INFO] Loaded script server_scripts:recipes/shaped_recipes.js in 0.0 s
+[19:24:28] [INFO] Loaded script server_scripts:tags.js in 0.002 s
+[19:24:28] [INFO] Loaded script server_scripts:veins.js in 0.0 s
+[19:24:28] [INFO] Loaded 33/33 KubeJS server scripts in 0.084 s with 0 errors and 0 warnings
+[19:24:28] [INFO] Scripts loaded
+[19:24:28] [INFO] Initializing recipe event...
+[19:24:29] [INFO] [minecraft:fluid] Found 1041 tags, added 22 objects, removed 0 objects
+[19:24:29] [INFO] [minecraft:block] Found 942 tags, added 9 objects, removed 0 objects
+[19:24:29] [INFO] [minecraft:item] Found 4769 tags, added 9 objects, removed 2 objects
+[19:24:29] [INFO] Processing recipes...
+[19:24:30] [WARN] Failed to parse recipe 'nuclearcraft:toroidal_accelerator_controller_tier_1[minecraft:crafting_shaped]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[19:24:30] [WARN] Failed to parse recipe 'nuclearcraft:patchouli_book[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[19:24:30] [INFO] Found 44974 recipes in 957.3 ms
+[19:24:30] [WARN] recipes/gregtech_recipes/ebf.js#24: Trying to add more outputs than RecipeType can support, id: gtceu:electric_blast_furnace/chromium_from_c2o3, Max itemOutputs: 3
+[19:24:30] [WARN] recipes/gregtech_recipes/ebf.js#32: Trying to add more outputs than RecipeType can support, id: gtceu:electric_blast_furnace/chromium_from_ruby, Max itemOutputs: 3
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_berkelium_heb_248_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_berkelium_leb_248_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_hecf_249_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_hecf_251_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_lecf_249_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_californium_lecf_251_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_hecm_243_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_hecm_245_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_hecm_247_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_lecm_243_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_lecm_245_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_curium_lecm_247_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_neptunium_hen_236_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_neptunium_len_236_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_hep_239_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_hep_241_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_lep_239_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_plutonium_lep_241_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_thorium_tbu_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_thorium_tbu_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_thorium_tbu_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_heu_233_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_heu_235_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_leu_233_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_uranium_leu_235_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_americium_hea_242_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_americium_hea_242_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_americium_hea_242_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_americium_lea_242_ox had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_americium_lea_242_za had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/mods/nuclearcraft/main.js#660: Fuel nuclearcraft:fuel_americium_lea_242_ni had been registered!
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:mangrove_propagule
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:mangrove_propagule
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:acacia_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:acacia_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:oak_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:oak_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:spruce_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:spruce_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:birch_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:birch_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:jungle_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:jungle_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:dark_oak_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:dark_oak_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:cherry_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:cherry_sapling
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:beetroot_seeds
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:beetroot_seeds
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:wheat_seeds
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:wheat_seeds
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:carrot
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:carrot
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:sugar_cane
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:sugar_cane
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:nether_wart
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:nether_wart
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:glow_berries
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:glow_berries
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:bamboo
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:bamboo
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:torchflower_seeds
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:torchflower_seeds
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:red_mushroom
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:red_mushroom
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:brown_mushroom
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:brown_mushroom
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:cocoa_beans
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:cocoa_beans
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:sweet_berries
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:sweet_berries
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:pumpkin_seeds
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:pumpkin_seeds
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:melon_seeds
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:melon_seeds
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:kelp
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:kelp
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:cactus
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:cactus
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:chorus_flower
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:chorus_flower
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:dandelion
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:dandelion
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:poppy
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:poppy
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:allium
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:allium
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:blue_orchid
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:blue_orchid
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:azure_bluet
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:azure_bluet
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:red_tulip
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:red_tulip
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:orange_tulip
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:orange_tulip
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:white_tulip
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:white_tulip
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:pink_tulip
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:pink_tulip
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:oxeye_daisy
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:oxeye_daisy
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:cornflower
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:cornflower
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:lily_of_the_valley
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:lily_of_the_valley
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:pink_petals
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:pink_petals
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:spore_blossom
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:spore_blossom
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:lilac
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:lilac
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:rose_bush
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:rose_bush
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:sunflower
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:sunflower
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:grass
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:grass
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:fern
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:fern
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:dead_bush
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:dead_bush
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:crimson_roots
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:crimson_roots
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:warped_roots
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:warped_roots
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:nether_sprouts
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:nether_sprouts
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:weeping_vines
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:weeping_vines
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:30] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:twisting_vines
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:twisting_vines
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:vine
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:vine
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:tall_grass
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:tall_grass
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:large_fern
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:large_fern
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:azalea
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:azalea
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:flowering_azalea
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:flowering_azalea
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:glow_lichen
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:glow_lichen
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:hanging_roots
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:hanging_roots
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:frogspawn
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:frogspawn
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:seagrass
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:seagrass
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:lily_pad
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: minecraft:lily_pad
+[19:24:31] [INFO] recipes/gregtech_recipes/multiblocks/custom/greenhouse.js#15: gtceu:fertilizer
+[19:24:31] [INFO] Posted recipe events in 354.6 ms
+[19:24:31] [WARN] Error parsing recipe create:kjs/9h9131be00f1lmy92g4iqhp1u[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredient":{"item":"gtceu:hv_machine_hull"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:filling","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"fluid":"gtceu:polytetrafluoroethylene","nbt":{},"amount":72}]},{"type":"create:deploying","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"},{"item":"minecraft:ender_eye"}]},{"type":"create:pressing","results":[{"item":"gtceu:hv_sensor","count":1}],"ingredients":[{"item":"gtceu:hv_sensor"}]}],"transitionalItem":{"item":"gtceu:hv_sensor","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
+[19:24:31] [WARN] Error parsing recipe create:kjs/azzgsyc19kgf57oce2jdi5j54[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredient":{"item":"gtceu:quantum_eye"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:fine_palladium_wire"}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:uranium_triplatinum_double_wire"}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_emitter","count":1}],"ingredients":[{"item":"gtceu:ev_emitter"},{"item":"gtceu:titanium_nugget"}]}],"transitionalItem":{"item":"gtceu:ev_emitter","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
+[19:24:31] [WARN] Error parsing recipe create:kjs/egqse7hn3r8f70sbc19y2pqhr[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"create:precision_mechanism","count":1,"chance":0.85},{"item":"gtceu:wrought_iron_block","count":1,"chance":0.05},{"item":"gtceu:zinc_ingot","count":3,"chance":0.05},{"item":"gtceu:lv_sensor","count":1,"chance":0.025},{"item":"gtceu:lv_emitter","count":1,"chance":0.025}],"ingredient":{"item":"create_factory_logistics:fluid_mechanism"},"sequence":[{"type":"create:filling","results":[{"item":"create_factory_logistics:fluid_mechanism","count":1}],"ingredients":[{"item":"create_factory_logistics:fluid_mechanism"},{"fluid":"gtceu:soldering_alloy","nbt":{},"amount":288}]},{"type":"create:deploying","results":[{"item":"create_factory_logistics:fluid_mechanism","count":1}],"ingredients":[{"item":"create_factory_logistics:fluid_mechanism"},{"item":"gtceu:iron_gear"}]},{"type":"create:deploying","results":[{"item":"create_factory_logistics:fluid_mechanism","count":1}],"ingredients":[{"item":"create_factory_logistics:fluid_mechanism"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"create_factory_logistics:fluid_mechanism","count":1}],"ingredients":[{"item":"create_factory_logistics:fluid_mechanism"},{"tag":"gtceu:diodes"}]},{"type":"create:deploying","results":[{"item":"create_factory_logistics:fluid_mechanism","count":1}],"ingredients":[{"item":"create_factory_logistics:fluid_mechanism"},{"item":"gtceu:zinc_foil"}]},{"type":"create:deploying","results":[{"item":"create_factory_logistics:fluid_mechanism","count":1}],"ingredients":[{"item":"create_factory_logistics:fluid_mechanism"},{"item":"gtceu:rubber_ring"}]}],"transitionalItem":{"item":"create_factory_logistics:fluid_mechanism","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
+[19:24:31] [WARN] Error parsing recipe create:kjs/8m78zx29f1sz3e6dpy2j4cb57[create:sequenced_assembly]: {"type":"create:sequenced_assembly","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredient":{"item":"gtceu:ev_machine_hull"},"sequence":[{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"minecraft:empty","nbt":{},"amount":0}]},{"type":"create:filling","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"fluid":"gtceu:polytetrafluoroethylene","nbt":{},"amount":72}]},{"type":"create:deploying","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"},{"item":"gtceu:quantum_eye"}]},{"type":"create:pressing","results":[{"item":"gtceu:ev_sensor","count":1}],"ingredients":[{"item":"gtceu:ev_sensor"}]}],"transitionalItem":{"item":"gtceu:ev_sensor","count":1},"loops":4}: Invalid empty fluid 'minecraft:empty'
+[19:24:32] [INFO] Added 499 recipes, removed 3171 recipes, modified 0 recipes, with 4 failed recipes in 1.197 s
+[19:24:32] [INFO] Collecting Custom Machine upgrades from JS scripts.
+[19:24:32] [INFO] Successfully added 0 Custom Machine upgrades
+[19:24:34] [INFO] Server resource reload complete!

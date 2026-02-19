@@ -94,7 +94,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         //.element(GTElements.get("nickel_cobaltite"))
         .color(0x024C34).iconSet("magnetic")
         .formula("NiCo")
-        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_GEAR)
+        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FRAME)
     event.create("magnetic_dysprosium")
         .ingot().fluid()
         .element(GTElements.get("dysprosium"))

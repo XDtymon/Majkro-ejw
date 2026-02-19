@@ -1,30 +1,18 @@
-[13:14:43] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[13:14:43] [INIT] Loaded plugins:
-[13:14:43] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[13:14:43] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[13:14:43] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[13:14:43] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[13:14:43] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[13:14:43] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
-[13:14:43] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[13:14:43] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[13:14:43] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[13:14:43] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[13:14:43] [INFO] Loaded script client_scripts:item_lore.js in 0.001 s
-[13:14:43] [INFO] Loaded script client_scripts:jei/create.js in 0.0 s
-[13:14:43] [INFO] Loaded script client_scripts:jei/nuclearcraft.js in 0.005 s
-[13:14:43] [INFO] Loaded script client_scripts:jei.js in 0.001 s
-[13:14:43] [INFO] Loaded 4/4 KubeJS client scripts in 0.029 s with 0 errors and 0 warnings
-[13:14:47] [INFO] Client resource reload complete!
-[13:16:36] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@7f6f98e9.
-[13:16:36] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@33e508ca.
-[13:21:09] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@fe01b2d.
-[13:21:09] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@55b8fe38.
-[13:55:43] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@15561cc3.
-[13:55:43] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@4d263ebf.
-[14:14:05] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@431653d.
-[14:14:05] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@3cbe936a.
-[14:18:51] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@55c77b76.
-[14:18:51] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@4dd3da77.
-[14:53:58] [ERROR] ! jei/create.js#2: Error in 'JEIEvents.hideItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.HideJEIEventJS@1ba6db36.
-[14:53:58] [ERROR] ! jei.js#29: Error in 'JEIEvents.addItems': TypeError: Cannot find function remove in object dev.latvian.mods.kubejs.integration.forge.jei.AddJEIEventJS@228a3393.
+[19:55:11] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[19:55:11] [INIT] Loaded plugins:
+[19:55:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[19:55:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[19:55:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[19:55:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[19:55:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[19:55:11] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[19:55:11] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[19:55:11] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[19:55:11] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[19:55:11] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[19:55:11] [INFO] Loaded script client_scripts:item_lore.js in 0.001 s
+[19:55:11] [INFO] Loaded script client_scripts:jei/create.js in 0.001 s
+[19:55:11] [INFO] Loaded script client_scripts:jei/nuclearcraft.js in 0.005 s
+[19:55:11] [INFO] Loaded script client_scripts:jei.js in 0.001 s
+[19:55:11] [INFO] Loaded 4/4 KubeJS client scripts in 0.026 s with 0 errors and 0 warnings
+[19:55:15] [INFO] Client resource reload complete!

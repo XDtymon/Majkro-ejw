@@ -3,6 +3,19 @@ ItemEvents.tooltip(event => {
     event.add('create:precision_mechanism', Text.of('MV-Tier Mechanism').red())
 
 
+    function panels (powerTier, amperage, id) {
+        event.addAdvanced(id, (item, advanced, text) => {
+            // shift, alt and ctrl are all keys you can check!
+            if (!event.shift) {
+                text.add(1, [Text.of('Hold ').gray(), Text.of('Shift ').gray(), Text.of('to see more info.').gray()])
+            } else {
+                text.add(1, Text.of("Voltage: ").yellow() + Text.of(GTValues.V[powerTier] + "V").white() + " ("+Text.of(powerTier).white()+")")
+                text.add(2, Text.of("Amperage: ").yellow() + Text.of(amperage+ "A").white())
+            }
+        })
+    }
+
+    panels(GTValues.MV, 2, 'kubejs:sterling_silver_solar_panel')
 
     event.addAdvanced('gtceu:high_temperature_turbine', (item, advanced, text) => {
         
@@ -12,7 +25,7 @@ ItemEvents.tooltip(event => {
         ])
         text.add(2, [
             Text.of('Each Rotor Holder Above').white(),
-            Text.of('LuV').pink(), 
+            Text.of('LuV').magenta(), 
             Text.of('adds').gray(),
             Text.of('10% Efficiency and multiplies EU/t by 2').white()
         ])

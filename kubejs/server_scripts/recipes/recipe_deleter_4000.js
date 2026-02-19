@@ -20,6 +20,12 @@ ServerEvents.recipes(event => {
     event.remove('create_factory_logistics:factory_fluid_gauge')
     event.remove('create_factory_logistics:jar_packager')
     event.remove("create:mixing/brass_ingot")
+    event.remove("create:filling/chocolate_glazed_berries")
+    event.remove("create:compacting/chocolate")
+    event.remove("create:fill_minecraft_bucket_with_create_chocolate")
+    event.remove("create:empty_create_chocolate_bucket_of_create_chocolate")
+    event.remove("create:mixing/chocolate_melting")
+    event.remove("create:mixing/chocolate")
     //AE2
     event.remove({mod: "ae2"})
     //Nuclear Craft 

@@ -1,0 +1,22 @@
+{
+  "id": "connector_-109-15-56",
+  "name": "connector",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--11034704-waypoint-icon.png",
+  "x": -109,
+  "y": -15,
+  "z": 56,
+  "r": 87,
+  "g": 159,
+  "b": 176,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
